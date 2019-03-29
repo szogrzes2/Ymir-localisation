@@ -444,13 +444,13 @@ Meereswelten mit vielen Inseln und kleinerer Landmasse.
 Wüstenwelt
 
 #maptyp4_dscr
-Wüstenwelten, in denen gastfreundliche Regione meist in Richtung Pole und um kleinere Binnenmeere liegen.
+Wüstenwelten, in denen bewohnbare Regionen meist in Richtung Pole und um kleinere Binnenmeere liegen.
 
 #maptyp5
 Eiswelt
 
 #maptyp5_dscr
-Kalte desertierte Welten mit nur wenigen gastfreundlichen Regionen.
+Kalte desertierte Welten mit nur wenigen bewohnbaren Regionen.
 
 #maptyp6
 Tropico
@@ -627,7 +627,7 @@ Tropisch
 WARNUNG: Du hast einen "Wertvollen Start" typ ausgewählt, Diese startart kann für [x] nicht nocheinmal verwendet werden, Egal ob dein Spawn-Cooldown bereits zurückgesetzt wurde. Vermassle es nicht!
 
 #newchar_nofind
-Es konnte keine Einheit oder kein Region für diesen Charakter gefunden werden!
+Es konnte keine Einheit oder keine Region für diesen Charakter gefunden werden!
 
 #findchar_bc
 Klicke hier, um nach einem bestehenden Charakter in diesem Spiel zu suchen.
@@ -1044,7 +1044,7 @@ Gesamte Instandhaltungskosten aller Infrastrukturen in dieser Region (z.B. Mauer
 Handelsbilanz
 
 #regeco_tradebal_c1
-Der Endbestand aller ein- und ausgeführten Güterausgaben und -einkommen.
+Der Endbestand aller Exportierten und Importierten Güter mit ein- und ausgaben.
 
 #regeco_ii
 Importierte Güter lokaler Vertrieb
@@ -1062,7 +1062,7 @@ Die Gesamtkosten für alle Güter, die über Handelsrouten in dieser Region eing
 Verkauf von Exportgütern
 
 #regeco_ei_c1
-Erlöse aller Güter, die aus dieser Region über Handelswege (zum Preis der Handelswege) ausgeführt werden.
+Erlöse aller Güter, die aus dieser Region über Handelswege (zum Preis der Transportkosten) ausgeführt werden.
 
 #regeco_ec
 Exportierte Gütereinkaufskosten
@@ -1071,7 +1071,7 @@ Exportierte Gütereinkaufskosten
 Gesamtkosten für den Kauf der exportierten Güter an ihre lokalen Produzenten in dieser Region (zu ihrem lokalen Preis).
 
 #regeco_ers
-Verkauf von staatlichen Ressourcen
+Verkauf staatlicher Resourcen
 
 #regeco_ers_c1
 Staatliche Ressourcen, die an Bevölkerung oder Industrie verkauft werden.
@@ -1080,7 +1080,7 @@ Staatliche Ressourcen, die an Bevölkerung oder Industrie verkauft werden.
 Einkäufe staatlicher Ressourcen
 
 #regeco_esr_c1
-Insgesamt bezahlte Auto-Kauf-Ressourcen für den Staat.
+Gesamtkosten durch automatisch gekaufte resourcen (du)
 
 #bc_menureg_cur1
 Währung, die in dieser Region verwendet wird:
@@ -1095,28 +1095,28 @@ Münzwert:
 Münzen im Umlauf für
 
 #bc_menureg_coin2
-Der Wert von 1 Münze ist ungefähr.
+Der Wert von 1 Münze ist ungefähr
 
 #b_menureg_gdp
 BIP:
 
 #bc_menureg_gdp1
-Territoriales Bruttoinlandsprodukt
+Regionales Bruttoinlandsprodukt
 
 #bc_menureg_gdp2
-Summe aller Münzeinnahmen im Region
+Summe aller Münzeinnahmen in dieser Region
 
 #b_menureg_wlth
-Territorium Reichtum:
+Reichtum dieser Region:
 
 #bc_menureg_wlth
-Gesamtvermögen des Territoriums
+Gesamtvermögen dieser Region
 
 #ui_menureg_admin1
 Kapazität
 
 #ui_menureg_admin2
-Zustand
+Staat
 
 #ui_menureg_admin3
 Territorium
@@ -1128,10 +1128,10 @@ Gesamtbevölkerung
 Aktive Bevölkerung
 
 #bc_menureg_sprt1
-dieser Region unterstützt derzeit [x] Porcos in all ihren Formationen.
+diese Region unterstützt derzeit [x] Porcos in allen Formationen.
 
 #bc_menureg_sprt2
-Seine demographischen Daten können bis zu [x] Porcos unterstützen. Oberhalb dieser Grenze ist das Wachstum des Regiones dauerhaft beeinträchtigt.
+Seine demographischen Daten können bis zu [x] Porcos unterstützen. Oberhalb dieser Grenze ist das Wachstum der Region dauerhaft beeinträchtigt.
 
 #bc_menureg_lq1
 Durchschnittliche Lebensdauer
@@ -1166,6 +1166,9 @@ Diplomatie
 #bc_gen_news
 Chroniken
 
+#bc_gen_coin
+Schatzkammer
+
 #bc_gen_cult
 Kultur
 
@@ -1173,25 +1176,28 @@ Kultur
 Fraktion
 
 #bc_gen_ev
-Events
+Ereignisse
+
+#bc_gen_ev
+Ehre
 
 #sc_menubdg_getmax
-get max
+Inhalt Füllen
 
 #sc_menubdg_get
-etwas besorgen
+Inhalt teilweiße füllen
 
 #sc_menubdg_empty
-einige leeren
+Inhalt teilweiße entleeren
 
 #sc_menubdg_emptyall
-alles leeren
+Inhalt Leeren
 
 #sc_menubdg_destroy
-einige zerstören
+Inhalt teilweiße zerstören
 
 #sc_menubdg_forbid
-verbieten
+einschränken
 
 #sc_menubdg_auth
 autorisieren
@@ -1206,25 +1212,31 @@ eingeschränkt
 erlauben
 
 #bc_menubdg_perm
-Wähle aus, wie Ressourcen in diesem Lagergebäude akzeptiert werden sollen.
+Wähle aus, welche Ressourcen in diesem Lagergebäude akzeptiert werden.
 
 #b_menubdg_allempty
 alles leeren
 
+#b_menubdg_alldestr
+alles zerstören
+
 #bc_menubdg_move
-sich[Akk] bewegen
+bewegen
 
 #bc_menubdg_move2
-dieses Gebäude zu demontieren und an anderer Stelle wieder aufzubauen.
+dieses Gebäude demontieren und an anderer Stelle wieder aufbauen.
 
 #ui_gov_name
 Regierung von
 
 #ui_gov_actpol
-AKTIVE MAßNAHMEN
+AKTIVE POLIZEN
 
 #ui_gov_ecobalance
-aktueller Haushaltssaldo
+Staatskasse
+
+#ui_gov_ecobalance
+Momentaner Finanzausgleich
 
 #ui_gov_pdgreform
 Du hast eine anstehende Reform, die nicht umgesetzt wird. Bist du sicher, dass du dieses Menü schließen und diese Reform ablehnen möchtest (politische Änderungen werden nicht übernommen)?
