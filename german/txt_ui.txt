@@ -9,7 +9,7 @@ NEUES SPIEL
 SPIEL LADEN
 
 #b_menu_join
-MEHRSPIELER
+SPIEL BEITRETEN
 
 #b_menu_editor
 EDITOR
@@ -21,7 +21,7 @@ EINSTELLUNGEN
 BEENDEN
 
 #b_menu_resume
-FORTSETZUNG
+FORTSETZEN
 
 #b_menu_tomain
 ZUM HAUPTMENÜ
@@ -36,7 +36,7 @@ Werde Mitglied der Ymir-Community!
 Porcopedia
 
 #b_menu_porcopedia_2
-Das offizielle Online-Wiki des Spiels
+Die offizielle Online-Wiki des Spiels
 
 #b_menu_trell_1
 Ymir auf Trello
@@ -53,11 +53,14 @@ Derzeit verbunden mit [x] ping: [y]
 #ui_connctstat_2
 Verlustrate: [x]% ( gesendet: [y] fehlgeschlagen: [z])
 
+#ui_connct_stable
+Deine Verbindung mit dem Server ist stabil.
+
 #ui_connct_unstbl
-Achtung! Deine Verbindung mit dem Server ist instabil!
+Warnung, Verbindung mit Server ist instabil!
 
 #mainmenu_mute
-Klicke hier, um das gesamte Spiel stummzuschalten/umzuschalten.
+Klicke hier, um Spielsound ein oder auszuschalten.
 
 #mainmenu_fullscrn
 Klicke hier, um zwischen Fenster- und Vollbildmodus zu wechseln.
@@ -102,7 +105,7 @@ Anzeigeauflösung
 Wähle die gewünschte Bildschirmauflösung.
 
 #b_menuop_terrain
-Gelände
+Terrain
 
 #b_menuop_low
 Niedrig
@@ -135,34 +138,34 @@ Logik
 Kosmetische Vegetation
 
 #bc_menuop_cosveg
-Aktiviere kosmetische Gräser und Sträucher.
+Aktiviere Kosmetische Gräser und Sträucher
 
 #b_menuop_cosunits
-Kosmetikgeräte 
+Kosmetische Einheiten 
 
 #bc_menuop_cosunits
-Aktiviere Kosmetikeinheiten wie Ziertiere.
+Aktiviere Kosmetische Einheiten wie z.b Tiere
 
 #b_menuop_animveget
 Animierte Vegetation
 
 #bc_menuop_animveget
-Aktivieren oder Deaktivieren der animierten Vegetation in der Gebietsansicht
+Aktivieren oder Deaktiviere animierten Vegetation in der Regionsansicht
 
 #b_menuop_grain
-Videokörnung
+Bildrauschen
 
 #bc_menuop_grain
-Aktivieren oder Deaktivieren dieses Nachbearbeitungseffekts
+Aktivieren oder Deaktivieren diesen Nachbearbeitungseffekt
 
 #b_menuop_autovsize
-Automatische Anpassung
+Auto-Skalierung der Renderauflösung
 
 #b_menuop_autovsize_c1
-Die Ansichtsfensterdefinition bleibt 1:1 mit deiner Bildschirmauflösung erhalten.
+Die Renderauflösung bleibt 1:1 mit deiner Bildschirmauflösung erhalten.
 
 #b_menuop_vsize
-Ansichtsfenster-Definition
+Renderauflösung Definition
 
 #b_menuop_vsize_c1
 Definition der Spielgrafiken in Abhängigkeit von deiner Bildschirmauflösung: 100% bedeutet 1:1 Verhältnis zwischen Bildschirm und gerenderter Grafik.
@@ -177,13 +180,13 @@ Automatische UI-Größe
 Die Größe der Benutzeroberfläche wird automatisch an Deine Bildschirmauflösung angepasst.
 
 #b_menuop_uisize
-Größe der Benutzeroberfläche
+UI Skalierung
 
 #b_menuop_uisize_c1
-Ändert die Größe der Oberflächenschicht. 
+Ändert die Größe des UI Layers.
 
 #b_menuop_uisize_c2
-Nützlich, um zu verhindern, dass die Benutzeroberfläche je nach Größe und Displaydefinition deines Geräts unangenehm zu lesen ist.
+Nützlich, um zu verhindern, dass die UI je nach Größe und Displaydefinition deines Geräts unangenehm zu lesen ist.
 
 #b_menuop_mvol
 Musiklautstärke
@@ -192,13 +195,16 @@ Musiklautstärke
 Umgebungslautstärke
 
 #b_menuop_uivol
-UI-Volumen
+UI-lautstärke
 
 #b_menuop_lang
 Sprache
 
 #bc_menuop_lang
 Wähle Deine Sprache
+
+#menuop_k_up
+Kamera rauf
 
 #menuop_k_le
 Kamera links
@@ -207,16 +213,19 @@ Kamera links
 Kamera rechts
 
 #menuop_k_dw
-Kamera aus
+Kamera runter
 
 #menuop_keyset
 Klicke und drücke eine Taste, um sie an diese Aktion zu binden.
+
+#menuop_togtut
+Tutorial An/Aus
 
 #menuop_togtut_c1
 Aktiviert das Haupttutorial und alle Hilfepopups, wenn du zum ersten Mal spielst.
 
 #menuop_resetut
-Alle zurücksetzen
+Zurücksetzen
 
 #menuop_resetut_c1
 Setze alle Tutorials auf Null zurück.
@@ -236,14 +245,17 @@ SOUND
 #b_menuop_game
 SPIEL
 
+#ui_menuop_options
+EINSTELLUNGEN
+
 #joingame_yourgames
 Deine Spiele
 
 #joingame_persist
-Dauerhafte Spiele
+Persistente Spiele
 
 #joingame_persist_dscr_1
-Persistente Spiele sind der wichtigste Spielmodus, um Ymir zu erleben: langsame Spiele, die monatelang auf Servern mit 24/7-Betrieb laufen können.
+Persistente Spiele sind der Haupt Spielmodus, um Ymir zu erleben: langsame Spiele, die monatelang auf Servern rund um die Uhr laufen können.
 
 #joingame_persist_dscr_2
 Um ein zuverlässiges und faires Erlebnis für alle Spieler zu gewährleisten, teilen sich die hier aufgelisteten Server alle die gleichen strikt standardisierten offiziellen "persistenten Modus"-Einstellungen. Serveranpassungen sind nicht erlaubt: Es gibt keine Mods, keine serverspezifischen Regeln und die Server-Hosts sind machtlos (keine Admin-Tools, um Spieler zu sperren oder zu moderieren). Nur Gameplay ist Gesetz.
@@ -252,7 +264,7 @@ Um ein zuverlässiges und faires Erlebnis für alle Spieler zu gewährleisten, t
 Echtzeit-Spiele
 
 #joingame_realtime_dscr_1
-Echtzeitspiele sind ein offizieller Spielmodus von Ymir für schnellere Spiele, die in mehreren Sitzungen mit Freunden oder kleineren Gruppen von Spielern gespielt werden sollen.
+Der Echtzeit Modus ist ein offizieller Spielmodus von Ymir für schnellere Spiele, die in mehreren Sitzungen mit Freunden oder kleineren Gruppen von Spielern gespielt werden sollen.
 
 #joingame_custom
 Benutzerdefinierte Spiele
@@ -267,13 +279,16 @@ WARNUNG: Bitte beachte, dass es im Gegensatz zu offiziellen Spielmodus-Servern m
 Direkte IP
 
 #joingame_connect
-JOIN GAME
+SPIEL BEITRETEN
 
 #servlst_name
 Servername
 
+#servlst_name_c1
+The custom name of the server's game
+
 #servlst_creat
-Schöpfer
+Ersteller
 
 #servlst_creat_c1
 Der Steam-Benutzername des Server-Hosts
@@ -294,13 +309,13 @@ Die Anzahl der aktiven Spieler in diesem Spiel
 Dauer
 
 #servlst_dur_c1
-Die Zeit, die dieses Spiel gedauert hat.
+Die Zeit, die dieses Spiel aktiv ist
 
 #servlst_admn
 Admin-Tools
 
 #servlst_admn_c1
-Ob Admin-Tools auf diesem Server aktiviert sind oder nicht. Wenn ja, hat der Server-Host die Möglichkeit, Spieler nach eigenem Ermessen zu sperren.
+Ob Admin-Tools auf diesem Server aktiviert sind oder nicht. Wenn ja, hat der Server-Host die Möglichkeit, Spieler nach eigenem Ermessen auszuschließen.
 
 #servlst_preset
 Spielvoreinstellung
@@ -309,13 +324,13 @@ Spielvoreinstellung
 Die voreingestellte Spielbalance wird auf diesem benutzerdefinierten Server verwendet.
 
 #servlst_ver
-Serverversion
+Server-Version
 
 #servlst_ver_c1
-Die Version des Spiels, das dieser Server gerade ausführt.
+Die Version des Spiels, die dieser Server gerade ausführt.
 
 #servlst_ver_c2
-Achtung! Deine Version ( [x]) stimmt nicht mit derjenigen dieses Servers ( [y]) überein!
+Achtung! Deine Version ([x]) stimmt nicht mit diesem Server ([y]) überein!
 
 #servlst_nogam
 Sorry: Es sieht so aus, als ob es derzeit keine Spiele gibt!
@@ -324,13 +339,13 @@ Sorry: Es sieht so aus, als ob es derzeit keine Spiele gibt!
 Spielname:
 
 #b_newgame_public
-Öffentlichkeit
+Offen
 
 #b_newgame_friends
-nur für Freunde
+Nur für Freunde
 
 #b_newgame_private
-privat
+Privat
 
 #b_newgame_password
 Passwort:
@@ -342,16 +357,22 @@ Lege ein Passwort fest, das für die Teilnahme an diesem Spiel benötigt wird.
 Max. Spieler:
 
 #b_newgame_start
-STARTSPIEL
+STARTE SPIEL
+
+#ui_newgame_newgame
+NEUES SPIEL
+
+#ui_newgame_world
+WELT
 
 #b_newgame_wprocedural
 Prozedural
 
 #b_newgame_wcustom
-Benutzerdefiniert
+Benutzerdefeniert
 
 #newgame_serv_c
-Server-Optionen
+Server Optionen
 
 #newgame_serv_run
 Server schließt nicht automatisch
@@ -369,7 +390,7 @@ Ein gespeichertes Spiel '[x]' existiert bereits in den lokalen Dateien! Was will
 Überschreiben
 
 #newgame_renam
-Autorename
+Automatisch Umbenennen
 
 #newgame_nomap
 keine verfügbar
@@ -489,7 +510,7 @@ Ressourcenproduktion, Bevölkerungswachstum und Stückzahlbewegungen sind schnel
 Dies ist für kleinere private Spiele gedacht, wie z.B. das lokale Spielen mit einer Gruppe von Freunden über Direct IP.
 
 #gmtyp_prsist
-Ausdauernd
+Persistent
 
 #gmtyp_prsist_dscr1
 Persistente Spiele sind so ausbalanciert, dass ein Server rund um die Uhr läuft, wo Aktionen mehrere Stunden dauern können und wo die Spieler nicht permanent im Spiel sein sollen.
@@ -507,7 +528,7 @@ Benutzerdefiniert
 Benutzerdefinierte Spiele ermöglichen es dir, deine eigenen Einstellungen zu definieren, die das Spielgleichgewicht und die Geschwindigkeit beeinflussen.
 
 #gamelob_disco
-Trennen der Verbindung
+Verbindung Trennen
 
 #gamelob_disco_c1
 Zurück zum Hauptmenü
@@ -531,67 +552,79 @@ Neuer Charakter
 Startvorgaben
 
 #newchar_availspwn
-Verfügbare Starts
+Available starts matching these settings
 
 #newchar_closeto
-Spawn bei Charakter...
+Starte in nähe von Charakter...
 
 #newchar_closeto_c
-Du wirst so nah wie möglich an den ausgewählten Charakter gespawnt, solange die oben genannten Bedingungen erfüllst.
+Du wirst so nah wie möglich an den ausgewählten Charakter gespawnt, solange die oben genannten Bedingungen erfüllt sind.
 
 #newchar_starttyp
-Starttypen
+Start types
 
 #newchar_clim
 Klimazonen
 
 #newchar_st_precious
-Dies ist ein "Wertvoller Anfang": Einmal verwendet, kannst du nicht mehr von einem anderen "Wertvollen Spawn" für [x] zurückkehren, unabhängig von deiner Spawn-Abklingzeit.
+Dies ist ein "Wertvoller Anfang": Einmal verwendet, kannst du für [x] nicht mehr an einem anderen "Wertvollen Spawn" starten, unabhängig von deiner Spawn-Abklingzeit.
 
 #newchar_st_prlck
-Dieser "Wertvolle Start" ist gesperrt, weil du bei einem anderen weniger als vor [x] gespawned bist ([y] übrig).
+Dieser "Wertvolle Start" ist gesperrt, weil du bei einem anderen vor weniger als [x] gespawned bist ([y] verbleibend.
+
+#newchar_st_pt
+Primitiver Stamm
+
+#newchar_st_pt_c1
+Beginne mit der Kontrolle über einen Primitiven Stamm
+
+#newchar_st_pt_c2
+Diese Option ist die standard Spielstart einstellung.
 
 #newchar_st_suc
-Nachfolge
+Erbschaft
 
 #newchar_st_suc_c1
-Werde zum neuen Herrscher einer bereits bestehenden Regierung, die einen Nachfolger braucht.
+Werde zum Anführer eines bereits exestierenden Regierung die einen Erbe sucht.
 
 #newchar_st_suc_c2
-Du bekommst die Kontrolle über einen inaktiven Charakter und erbst all seinen Besitz.
+Du übernimmst die Kontrolle eines Inaktiven Charakters und wirst all sein besitz übernehmen.
 
 #newchar_st_col
 Kolonien
 
 #newchar_st_col_c1
-Werde der neue Anführer einer Kolonie, die von einem anderen Spieler gegründet wurde.
+Werde der Anführer einer Kolonie die ein anderer Spieler erstellte
 
 #newchar_st_col_c2
-(Du wirst einer bestehenden Nation beitreten)
+(Du wirst einer bereits exestierenden Nation beitreten)
 
 #newchar_st_ar
-Neuer Leiter
+Neuer Herscher
 
 #newchar_st_ar_c1
-Werde der neue Anführer eines Gebietes, das zuvor in die Anarchie gefallen war.
+Werde zum Herscher einer Region die in Anarchie verfallen ist.
 
 #newchar_st_ar_c2
-(ein Gebiet, das rebellierte oder seinen früheren Führer verlor: erwarte das Unerwartete!)
+(Diese Region hat rebelliert und ihren Herscher verloren: Niemand weiß was dich erwartet!)
+
+#newchar_clim_c
+Wähle ein bevorzugtes Klima aus
 
 #newchar_cold
-Kalt
+Kalte Zone
 
 #newchar_temp
-Gemäßigt
+Gemässigte Zone
 
 #newchar_arid
-Trocken
+Wüstenhaft
 
 #newchar_trop
 Tropisch
 
 #newchar_prspwn_warn
-WARNUNG: Du hast einen oder mehrere "Wertvolle Startarten" ausgewählt. Diese können nicht für [x] wiederverwendet werden, unabhängig von der Abkühlphase des Spawns in diesem Spiel. Vermassel es nicht!
+WARNUNG: Du hast einen "Wertvollen Start" typ ausgewählt, Diese startart kann für [x] nicht nocheinmal verwendet werden, Egal ob dein Spawn-Cooldown bereits zurückgesetzt wurde. Vermassle es nicht!
 
 #newchar_nofind
 Es konnte keine Einheit oder kein Gebiet für diesen Charakter gefunden werden!
@@ -624,7 +657,7 @@ Ungültiger Einladungscode!
 Einladungscode für [x]
 
 #invtcd_txt
-Du versuchst, in der Nähe eines Charakters namens '[x]' zu spawnen. Um sicherzustellen, dass du dies in Absprache mit dem Besitzer tust, musst du nun den gültigen "invite code" angeben, der diesem Charakter entspricht und nur dem Spieler bekannt ist, der ihn kontrolliert. Wenn du einem Freund beitrittst, bitte ihn, dir diesen Code zu geben, der im Avatar seines Charakters angezeigt wird.
+Du versuchst, in der Nähe eines Charakters namens '[x]' zu spawnen. Um sicherzustellen, dass du dies in Absprache mit dem Besitzer tust, musst du nun den gültigen "Einladungscode" angeben, der diesem Charakter entspricht und nur dem Spieler bekannt ist, der ihn kontrolliert. Wenn du einem Freund beitrittst, bitte ihn, dir diesen Code zu geben, der im Avatar seines Charakters angezeigt wird.
 
 #findchar_srch
 Suche nach Charakter......
@@ -633,28 +666,31 @@ Suche nach Charakter......
 Ergebnisse
 
 #findchar_wait
-recherchieren.....
+suche...
 
 #findchar_instr
-Gib den vollständigen Namen eines Charakters oder einen Teil seines Namens ein und drücke die Eingabetaste, um gültige Übereinstimmungen zu sehen.
+Gib den vollständigen Namen eines Charakters oder einen Teil seines Namens ein und drücke die Eingabetaste, um gültige Übereinstimmungen anzuzeigen.
 
 #findchar_nores
-kein Ergebnis zu dieser Suche
+Keine passenden ergebnisse zu dieser suchanfrage
 
 #tuto_ask
 TUTORIAL
 
 #tuto_ask_1
-Seid gegrüßt, Newpig! Ist dies das erste Mal, dass du Ymir spielst und möchtest den Tutorial-Modus aktivieren?
+Seid gegrüßt, Neuschweinchen! Ist dies das erste Mal, dass du Ymir spielst und möchtest den Tutorial-Modus aktivieren?
 
 #ui_gen_toreg
-Klicke hier, um zum aktuell ausgewählten Gebiet zu gelangen.
+Klicke hier, um zur aktuell ausgewählten Region zu gelangen.
 
 #ui_gen_toworld
 Klicke hier, um zur Weltkarte zu gelangen.
 
+#ui_gen_tonovis
+Du kannst nicht zu dieser Region gehen weil du keine sichtbarkeit hast.
+
 #ui_gen_score
-Punktzahl des Charakters
+Charakter Punktezahl
 
 #ui_gen_vpts
 Siegpunkte
@@ -662,65 +698,116 @@ Siegpunkte
 #ui_gen_vpts2
 Du brauchst insgesamt [x], um dieses Spiel zu gewinnen.
 
+#ui_gen_regmen
+Regions Menü
+
+#ui_bdginf_cons
+Baukosten
+
+#ui_bdginf_bldrs
+Benötigt Bauarbeiter
+
+#ui_bdginf_cost
+materials cost:
+
+#ui_bdginf_empl
+employs
+
+#b_bdginf_hhold
+household
+
+#bc_bdginf_hhold
+households capacity of this dwelling
+
+#bc_bdginf_h
+Health bonus for this dwelling's residents
+
+#bc_bdginf_lq
+Life quality bonus for this dwelling's residents
+
+#bc_bdginf_eff
+Efficiency multiplies the workforce of each worker of the building
+
+#b_bdginf_wealth
+max wealth production
+
+#bc_bdginf_wealth
+The maximum amount of wealth this building can theoretically generate if it's full workforce is in full production
+
+#b_bdginf_scap
+Kapazität
+
+#bc_bdginf_scap
+Lager Kapazität der Ressourceneinheit
+
+#b_bdginf_stype
+Lagerplätze Verfügbar
+
+#b_bdginf_mcap
+Verteilungs Kapazität
+
 #ui_place_form0
-Lager der neuen Formation
+Neue Lager Formation
 
 #ui_place_form1
-Umsiedlungslager
+Lager verschieben
 
 #bc_erase
-Zerstörungswerkzeug
+Abreiß Werkzeug
 
 #bc_erase_c2
-(Rechtsklick für Optionen)
+(Rechtsklicken für Optionen)
 
 #b_erase_ter
-Gelände
+Terrain
 
 #b_erase_inf
 Infrastrukturen
 
+#b_erase_bdg
+Gebäude
+
 #b_erase_ptf
-Plattformen
+Platformen
 
 #bc_menubdg_destroy
-Abbruch des Gebäudes
+Gebäude Abreißen
 
 #bc_menubdg_destroy2
-(Gebäude abreißen und einige seiner Materialien wiederherstellen)
+(Gebäude wird Abgerissen, Du erhältst einige der Resourcen zurück)
 
 #bc_menubdg_sleep
-Schlafen
+Ruhemodus
 
 #bc_menubdg_sleep2
-(Gebäude ist deaktiviert, aber immer noch gepflegt)
+(Gebäude wird deaktivert aber weiterhin gewartet)
 
 #bc_menubdg_aband
 Verlassen
 
 #bc_menubdg_aband2
-(Gebäude ist deaktiviert und verfällt mit der Zeit)
+(Gebäude ist verlassen und wird mit der zeit verfallen)
 
 #ui_menubdg_sleep1
-Schlafmodus
+Ruhemodus
 
 #ui_menubdg_sleep2
-Im Schlafmodus: Alle Funktionalitäten werden gestoppt, bis du sie wieder aktivierst. Das Gebäude verschlechtert sich nicht mit der Zeit (Wartung).
+Im Ruhemodus: Alle Funktionalitäten werden gestoppt, bis du sie wieder aktivierst. Das Gebäude verschlechtert sich nicht mit der Zeit (Wartung).
 
 #ui_menubdg_build1
-In Bau befindlich
+Wird Gebaut
 
 #ui_menubdg_build2
 Dieses Gebäude ist noch nicht fertig und damit noch nicht funktionsfähig.
 
 #ui_menubdg_fonct1
-Funktional
+Funktionsfähig
 
 #ui_menubdg_fonct2
 Dieses Gebäude ist voll funktionsfähig.
 
 #ui_menubdg_morework1
-Vermisste Arbeiter
+Unzureichende Arbeiter
 
 #ui_menubdg_morework2
 Dieses Gebäude benötigt mehr Arbeiter, um voll funktionsfähig zu sein.
@@ -729,13 +816,13 @@ Dieses Gebäude benötigt mehr Arbeiter, um voll funktionsfähig zu sein.
 Leer
 
 #ui_menubdg_noworker2
-Dieses Gebäude braucht Arbeiter, die funktionsfähig sind.
+Dieses Gebäude braucht Arbeiter um funktionsfähig zu sein.
 
 #ui_menubdg_deficit1
-Unprofitabel
+Unrentabel
 
 #ui_menubdg_deficit2
-Dieses Gebäude ist derzeit unrentabel für seine Arbeiter, die mit Verlust arbeiten. Seine Effizienz wird stark beeinträchtigt werden, und die Porcos werden es vermeiden, hier zu arbeiten.
+Dieses Gebäude ist derzeit unrentabel für seine Arbeiter, die mit Verlust arbeiten. Die Gebäude effizienz ist stark beeinträchtigt, Porcos werden es vermeiden, hier zu arbeiten.
 
 #ui_menubdg_destr1
 Zerstört
@@ -747,16 +834,16 @@ Dieses Gebäude muss wieder aufgebaut werden, um funktionsfähig zu sein.
 Verlassen
 
 #ui_menubdg_ruin2
-Verlassen und muss wiederhergestellt werden, um funktionsfähig zu sein. Keine Wartung, und das Gebäude verfällt mit der Zeit.
+Verlassen und muss wiederhergestellt werden, um funktionsfähig zu sein. Derzeit keine Wartung, und das Gebäude verfällt mit der Zeit.
 
 #ui_menubdg_recycl1
-Abbrucharbeiten
+Wird Abgerissen
 
 #ui_menubdg_recycl2
-Dieses Gebäude wird gerade abgerissen. Wenn der Prozess abgeschlossen ist, wird er vollständig entfernt und einige seiner Materialien werden zurückgewonnen.
+Dieses Gebäude wird gerade abgerissen. Wenn der Prozess abgeschlossen ist, wird er vollständig entfernt und einige der Materialien werden zurückgewonnen.
 
 #ui_menubdg_stckperm
-Lagerhaltungsberechtigungen:
+Erlaubte Lagerinhalte:
 
 #ui_menubdg_Usage
 Verwendung:
@@ -765,7 +852,7 @@ Verwendung:
 pro Slot
 
 #ui_menubdg_upto
-Upgrade auf
+Upgrade zu
 
 #ui_menubdg_upgrades
 Upgrades
@@ -774,7 +861,7 @@ Upgrades
 Einkommen, das jeder Arbeiter verdient.
 
 #ui_menubdg_winc_2
-Aufbau von Aktivität: [x]
+Gebäude Aktivität: [x]
 
 #ui_menubdg_winc_3
 Staatliches Gehalt: [x]
@@ -783,10 +870,10 @@ Staatliches Gehalt: [x]
 Subventionen: [x]
 
 #bc_menubdg_wake1
-Aufwachen
+Betrieb wiederaufnehmen
 
 #bc_menubdg_wake2
-(Gebäude wird wieder aktiv)
+(Gebäude wird wieder aktiviert)
 
 #bc_menubdg_rest1
 Wiederherstellen
@@ -795,7 +882,7 @@ Wiederherstellen
 (Reparatur und Wiederherstellung der Funktionsfähigkeit des Gebäudes)
 
 #ui_upgbdg_upto
-Upgrade auf
+Upgrade zu
 
 #ui_upgbdg_rstr
 Wiederherstellen
@@ -803,11 +890,14 @@ Wiederherstellen
 #ui_menubdg_prod
 PRODUKTION
 
+#ui_menubdg_distrib
+HANDEL
+
 #ui_menubdg_addan
 einen Marktstand hinzufügen
 
 #ui_menubdg_addan2
-(reduziert die Produktionspersonal)
+(reduziert die Arbeitskraft)
 
 #ui_menubdg_dtrb1
 Dieses Gebäude kann Marktstände schaffen, an denen die Arbeiter ihre Produkte direkt an die Öffentlichkeit verkaufen, aber es reduziert die Produktion von Arbeitskräften.
@@ -816,10 +906,16 @@ Dieses Gebäude kann Marktstände schaffen, an denen die Arbeiter ihre Produkte 
 Dieses Gebäude kann keine Marktstände schaffen, weil es nichts herstellen kann, was für die Öffentlichkeit verkaufbar ist.
 
 #ui_menubdg_anx
-Anhänge
+Module
+
+#bc_menubdg_expl
+Erschlossen
 
 #bc_menubdg_nsource
-natürliche Quellen von
+Natürliches Vorkommen von
+
+#ui_annex_add
+Modul hinzufügen
 
 #ui_annex_txt1
 fügt eine neue Produktionsquelle hinzu
@@ -837,7 +933,7 @@ Bietet zusätzliche Produktionsquellen von [x].
 Bietet [x] zusätzliche Effizienz für das Gebäude.
 
 #ui_annex_err1
-keine Ressource für die Produktion in diesem Anhang verfügbar ist.
+Keine Ressource für die Produktion in diesem Modul verfügbar.
 
 #ui_annex_err2
 dieses Gebäude hat keine Produktion, die für den Vertrieb gültig ist.
@@ -846,7 +942,7 @@ dieses Gebäude hat keine Produktion, die für den Vertrieb gültig ist.
 Auswahl der zu produzierenden Ressource
 
 #bc_menubdg_nopran
-Dieses Gebäude hat keine möglichen Anbauten.
+Keine Module für dieses Gebäude verfügbar.
 
 #regeco_taxes
 Steuereinkommen
@@ -864,13 +960,13 @@ Besteuert alle Einnahmen, die in diesem Gebiet erzielt werden.
 Steuereinnahmen: [x]% von [y] = [z] Münzen.
 
 #regeco_tax_share
-- [x]% aus dem territorialen Status
+- [x]% aus dem regionalen Status
 
 #regeco_tax_share_c1
-Der aktuelle Status dieses Gebietes gewährt Ihnen [x]% aller erwirtschafteten Steuereinnahmen.
+Der aktuelle Status dieser Region gewährt Ihnen [x]% aller erwirtschafteten Steuereinnahmen.
 
 #regeco_waste
-Abfall
+Verschwendung
 
 #regeco_waste_c1
 Der Prozentsatz der Einkommensverluste, die durch Verschwendung und Korruption in diesem Gebiet entstehen.
@@ -879,7 +975,7 @@ Der Prozentsatz der Einkommensverluste, die durch Verschwendung und Korruption i
 Mit einer Verschwendungsrate von [x]% verlieren wir derzeit [y]-Münzen von Steuereinnahmen.
 
 #regeco_wasted_c1
-Betrag der Einnahmeausfälle durch Abfälle.
+Verlust von Einnahmen durch Verschwendung.
 
 #regeco_wastab_c1
 Das Gesamteinkommen, das der Verschwendung unterliegt.
@@ -888,37 +984,49 @@ Das Gesamteinkommen, das der Verschwendung unterliegt.
 Steuereinnahmen: [x]
 
 #regeco_wastab_c3
-Import-Gewinne: [x]
+Import-Gewinn: [x]
 
 #regeco_wastab_c4
-Exportgewinne: [x]
+Export-Gewinn: [x]
 
 #regeco_wastab_c5
 Staatliche Ressourcenverkäufe: [x]
 
 #regeco_wst_admin_c1
-Verschwendung durch eine schwache oder negative lokale Verwaltung.
+Verschwendung durch eine schwache oder negative lokale Staatsmacht.
 
 #regeco_wst_stpwr_c1
 Korruption von Staatsbeamten wegen einer schwachen oder negativen Staatsmacht.
 
 #regeco_wst_pop
-Korruption in der Bevölkerung
+Korruption im Staat
+
+#regeco_wst_stpwr_c1
+Korruption der Staatsangestellten durch negativer oder schwacher Staatsmacht.
+
+#regeco_wst_pop
+Bevölkerungs Korruption
 
 #regeco_wst_pop_c1
 Korruption und Verschwendung der gesamten Bevölkerung in der Region.
 
 #regeco_wst_srvc
-Dienstleistungen zur Abfallreduzierung
+Verschwendungs-reduzierende Dienste
 
 #regeco_wst_srvc_c1
 Reduzierung der Verschwendung durch aktive Dienstleistungen wie z.B. Steuererhebung.
+
+#regeco_upkeep
+Stadt Wartungskosten
 
 #regeco_upkeep_c1
 Einige Gebäude oder Infrastrukturen erfordern Wartungskosten, die von Ihnen (der Regierung) getragen werden müssen.
 
 #regeco_salaries
 Staatliche Gehälter
+
+#regeco_salaries_c1
+Unterhaltungskosten aller Staatlichen Gehälter in dieser Region.
 
 #regeco_up_bdg
 Gebäudeunterhalt
