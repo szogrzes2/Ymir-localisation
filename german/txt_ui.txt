@@ -444,13 +444,13 @@ Meereswelten mit vielen Inseln und kleinerer Landmasse.
 Wüstenwelt
 
 #maptyp4_dscr
-Wüstenwelten, in denen gastfreundliche Gebiete meist in Richtung Pole und um kleinere Binnenmeere liegen.
+Wüstenwelten, in denen gastfreundliche Regione meist in Richtung Pole und um kleinere Binnenmeere liegen.
 
 #maptyp5
 Eiswelt
 
 #maptyp5_dscr
-Kalte desertierte Welten mit nur wenigen gastfreundlichen Gebieten.
+Kalte desertierte Welten mit nur wenigen gastfreundlichen Regionen.
 
 #maptyp6
 Tropico
@@ -627,7 +627,7 @@ Tropisch
 WARNUNG: Du hast einen "Wertvollen Start" typ ausgewählt, Diese startart kann für [x] nicht nocheinmal verwendet werden, Egal ob dein Spawn-Cooldown bereits zurückgesetzt wurde. Vermassle es nicht!
 
 #newchar_nofind
-Es konnte keine Einheit oder kein Gebiet für diesen Charakter gefunden werden!
+Es konnte keine Einheit oder kein Region für diesen Charakter gefunden werden!
 
 #findchar_bc
 Klicke hier, um nach einem bestehenden Charakter in diesem Spiel zu suchen.
@@ -948,13 +948,13 @@ Keine Module für dieses Gebäude verfügbar.
 Steuereinkommen
 
 #regeco_taxes_c1
-Summe der wahrgenommenen Erträge aus Steuern in diesem Gebiet.
+Summe der wahrgenommenen Erträge aus Steuern in dieser Region.
 
 #regeco_tax_inc
  [x]% der Einkommenssteuer
 
 #regeco_tax_inc_c1
-Besteuert alle Einnahmen, die in diesem Gebiet erzielt werden.
+Besteuert alle Einnahmen, die in dieser Region erzielt werden.
 
 #regeco_tax_inc_c2
 Steuereinnahmen: [x]% von [y] = [z] Münzen.
@@ -969,7 +969,7 @@ Der aktuelle Status dieser Region gewährt Ihnen [x]% aller erwirtschafteten Ste
 Verschwendung
 
 #regeco_waste_c1
-Der Prozentsatz der Einkommensverluste, die durch Verschwendung und Korruption in diesem Gebiet entstehen.
+Der Prozentsatz der Einkommensverluste, die durch Verschwendung und Korruption in dieser Region entstehen.
 
 #regeco_waste_c2
 Mit einer Verschwendungsrate von [x]% verlieren wir derzeit [y]-Münzen von Steuereinnahmen.
@@ -1032,40 +1032,43 @@ Unterhaltungskosten aller Staatlichen Gehälter in dieser Region.
 Gebäudeunterhalt
 
 #regeco_up_bdg_c1
-Gesamte Instandhaltungskosten aller staatlichen Gebäude in diesem Gebiet (z.B. offizielle und militärische Gebäude).
+Gesamte Instandhaltungskosten aller staatlichen Gebäude in dieser Region (z.B. offizielle und militärische Gebäude).
 
 #regeco_up_infr
 Aufrechterhaltung der Infrastrukturen
 
 #regeco_up_infr_c1
-Gesamte Instandhaltungskosten aller Infrastrukturen in diesem Gebiet (z.B. Mauern oder Gärten, die die Instandhaltung kosten).
+Gesamte Instandhaltungskosten aller Infrastrukturen in dieser Region (z.B. Mauern oder Gärten, die die Instandhaltung kosten).
 
 #regeco_tradebal
 Handelsbilanz
 
 #regeco_tradebal_c1
-Der Endbestand aller ein- und ausgeführten Warenausgaben und -einkommen.
+Der Endbestand aller ein- und ausgeführten Güterausgaben und -einkommen.
 
 #regeco_ii
-Importierte Waren lokaler Vertrieb
+Importierte Güter lokaler Vertrieb
+
+#regeco_ii_c1
+Gewinn generiert aus Import-Gütern die in dieser region verkauft werden (Regionale preise).
 
 #regeco_ic
-Importierte Wareneinkaufskosten
+Einkaufskosten der Importierten Güter
 
 #regeco_ic_c1
-Die Gesamtkosten für alle Waren, die über Handelsrouten in dieses Gebiet eingeführt werden (zum Preis der Handelsroute).
+Die Gesamtkosten für alle Güter, die über Handelsrouten in dieser Region eingeführt werden (zum Preis der Handelsroute).
 
 #regeco_ei
 Verkauf von Exportgütern
 
 #regeco_ei_c1
-Erlöse aller Waren, die aus diesem Gebiet über Handelswege (zum Preis der Handelswege) ausgeführt werden.
+Erlöse aller Güter, die aus dieser Region über Handelswege (zum Preis der Handelswege) ausgeführt werden.
 
 #regeco_ec
-Exportierte Wareneinkaufskosten
+Exportierte Gütereinkaufskosten
 
 #regeco_ec_c1
-Gesamtkosten für den Kauf der exportierten Waren an ihre lokalen Produzenten in diesem Gebiet (zu ihrem lokalen Preis).
+Gesamtkosten für den Kauf der exportierten Güter an ihre lokalen Produzenten in dieser Region (zu ihrem lokalen Preis).
 
 #regeco_ers
 Verkauf von staatlichen Ressourcen
@@ -1080,10 +1083,10 @@ Einkäufe staatlicher Ressourcen
 Insgesamt bezahlte Auto-Kauf-Ressourcen für den Staat.
 
 #bc_menureg_cur1
-Währung, die in diesem Gebiet verwendet wird:
+Währung, die in dieser Region verwendet wird:
 
 #bc_menureg_cur2
-Irrelevante Währung, die nur lokal in diesem Gebiet verwendet wird.
+Irrelevante Währung, die nur lokal in dieser Region verwendet wird.
 
 #b_menureg_coin
 Münzwert:
@@ -1101,7 +1104,7 @@ BIP:
 Territoriales Bruttoinlandsprodukt
 
 #bc_menureg_gdp2
-Summe aller Münzeinnahmen im Gebiet
+Summe aller Münzeinnahmen im Region
 
 #b_menureg_wlth
 Territorium Reichtum:
@@ -1125,10 +1128,10 @@ Gesamtbevölkerung
 Aktive Bevölkerung
 
 #bc_menureg_sprt1
-Dieses Gebiet unterstützt derzeit [x] Porcos in all ihren Formationen.
+dieser Region unterstützt derzeit [x] Porcos in all ihren Formationen.
 
 #bc_menureg_sprt2
-Seine demographischen Daten können bis zu [x] Porcos unterstützen. Oberhalb dieser Grenze ist das Wachstum des Gebietes dauerhaft beeinträchtigt.
+Seine demographischen Daten können bis zu [x] Porcos unterstützen. Oberhalb dieser Grenze ist das Wachstum des Regiones dauerhaft beeinträchtigt.
 
 #bc_menureg_lq1
 Durchschnittliche Lebensdauer
@@ -1269,16 +1272,16 @@ REFORM ANWENDEN
 Klicke hier, um Deine Reform einzureichen und alle Deine anstehenden Änderungen an den Richtlinien wirksam zu machen.
 
 #b_reform_cflct
-Reform-Effekt: +Konflikt in allen Gebieten
+Reform-Effekt: +Konflikt in allen Regionen
 
 #b_reform_cflct_c1
-Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] des Konflikts in allen deinen Gebieten verursachen.
+Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] des Konflikts in allen deinen Regionen verursachen.
 
 #b_reform_loyal
-Reformeffekt: - [x] Loyalität in allen Gebieten
+Reformeffekt: - [x] Loyalität in allen Regionen
 
 #b_reform_loyal_c1
-Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] Loyalität in allen deinen Gebieten verursachen.
+Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] Loyalität in allen deinen Regionen verursachen.
 
 #ui_eco_title
 SCHATZKAMMER
@@ -1299,25 +1302,25 @@ Der Führer ordnet derzeit [x]% seines persönlichen Gesamtvermögens von [y] de
 Steuern Einkommen und Ertrag
 
 #ui_eco_tax_c1
-Summe aller Steuereinnahmen aus allen deinen Gebieten.
+Summe aller Steuereinnahmen aus allen deinen Regionen.
 
 #ui_eco_contrib_c1
 In einer Gesellschaft ohne organisierte Steuern stammen die Einkommen nur aus dem freiwilligen Beitrag der Menschen für die Gemeinschaft (20% ihres Einkommens).
 
 #ui_eco_wast_c1
-Steuereinnahmen, die durch Verschwendung in deinen Gebieten verloren gehen. Abfall ist das Ergebnis einer niedrigen Gebietsverwaltung.
+Steuereinnahmen, die durch Verschwendung in deinen Regionen verloren gehen. Abfall ist das Ergebnis einer niedrigen Regionsverwaltung.
 
 #ui_eco_bdgs
 Gebäudeunterhalt
 
 #ui_eco_bdgs_c1
-Totale Instandhaltung aller Gebäude in allen deinen Gebieten.
+Totale Instandhaltung aller Gebäude in allen deinen Regionen.
 
 #ui_eco_infr
 Aufrechterhaltung der Infrastrukturen
 
 #ui_eco_infr_c1
-Gesamtkosten für die Wartung aller Infrastrukturen aller deiner Gebiete wie Mauern oder Straßen.
+Gesamtkosten für die Wartung aller Infrastrukturen aller deiner Regione wie Mauern oder Straßen.
 
 #ui_eco_units
 Wartung der Einheiten
@@ -1350,7 +1353,7 @@ Steuern für deinen hierarchischen Vorgesetzten: [x]
 Handelsbilanz
 
 #ui_eco_tradbal_c1
-Die Handelsbilanz über alle Deine Gebiete hinweg von allen deinen aktuellen Handelsrouten.
+Die Handelsbilanz über alle Deine Regione hinweg von allen deinen aktuellen Handelsrouten.
 
 #ui_eco_tradbal_c2
 Staatliche Ressourcen: + [x] Verkäufe - [y] Käufe
@@ -1542,16 +1545,16 @@ Setze die Aufrechterhaltung des Eigentums an mindestens [x] [y].
 x] ist keine staatliche Ressource mehr (kein automatischer Einkauf der Produktion). 
 
 #regeco_1
-Der Haushaltssaldo deines Gebiets ist das Ergebnis aller Einnahmen und Ausgaben, die für dieses Gebiet spezifisch sind, wie Steuern, Gehälter und Unterhaltskosten.
+Der Haushaltssaldo deines Regions ist das Ergebnis aller Einnahmen und Ausgaben, die für dieser Region spezifisch sind, wie Steuern, Gehälter und Unterhaltskosten.
 
 #regeco_2
 Das Budget kann auch durch Verschwendung negativ beeinflusst werden. Es handelt sich um Einkommensverluste durch Steuerhinterziehung, schlechtes Management, Korruption und Schwarzwirtschaft.
 
 #regadmin_1
-Die Verwaltung repräsentiert die Managementkapazität deiner Regierung in diesem Gebiet.
+Die Verwaltung repräsentiert die Managementkapazität deiner Regierung in dieser Region.
 
 #regadmin_2
-Je mehr Einwohner und Entfernung von der Hauptstadt, desto schwieriger ist es, das Gebiet zu verwalten. Aber es kann auch durch aktive Politiken und Dienstleistungen im Gebiet verbessert werden, wie z.B. die Unterstützung von Schreiber bei der Verwaltung des Gebietes.
+Je mehr Einwohner und Entfernung von der Hauptstadt, desto schwieriger ist es, das Region zu verwalten. Aber es kann auch durch aktive Politiken und Dienstleistungen im Region verbessert werden, wie z.B. die Unterstützung von Schreiber bei der Verwaltung des Regiones.
 
 #regconf_eff
 Effekte: vermindert das Wachstum (+Morde), vermindert die Loyalität (- Autorität)
@@ -1560,7 +1563,7 @@ Effekte: vermindert das Wachstum (+Morde), vermindert die Loyalität (- Autorit�
 Konflikt stellt die Ebene der zufälligen Konflikte zwischen den Menschen des Territoriums dar.
 
 #regconf_2
-Aktive staatliche Staatsbürger und Dienstleistungen im Gebiet wie Justiz können dazu beitragen, diese zu reduzieren.
+Aktive staatliche Staatsbürger und Dienstleistungen im Region wie Justiz können dazu beitragen, diese zu reduzieren.
 
 #regloy_1
 Loyalität repräsentiert die globale Loyalität des Volkes des Territoriums gegenüber Ihnen: der Zentralregierung, die dieses Territorium kontrolliert.
@@ -1572,25 +1575,25 @@ Sie wird von vielen Faktoren beeinflusst, wie z.B. der Kultur des Volkes, der Ko
 Effekte: trägt zu deiner Gesamtkultur bei, beeinflusst die Loyalität, erhöht die Intelligenz der Bevölkerung.
 
 #regcltr_1
-Kultur repräsentiert das gesamte Wissen, die Bräuche und das Verhalten der Menschen in diesem Gebiet.
+Kultur repräsentiert das gesamte Wissen, die Bräuche und das Verhalten der Menschen in dieser Region.
 
 #regcltr_2
-Eine Gesamtkultur, die auf der Bevölkerungszahl basiert, kann dann zwischen verschiedenen Arten von Kulturen geteilt werden. "Staatskultur" repräsentiert deine Kultur. "Die "Lokale Kultur" steht für Bräuche und Verhaltensweisen, die spezifisch für dieses Gebiet sind und sich von deiner Hauptkultur unterscheiden, die unter allen deinen Völkern geteilt wird. Es können auch andere fremde Kulturen vorhanden sein.
+Eine Gesamtkultur, die auf der Bevölkerungszahl basiert, kann dann zwischen verschiedenen Arten von Kulturen geteilt werden. "Staatskultur" repräsentiert deine Kultur. "Die "Lokale Kultur" steht für Bräuche und Verhaltensweisen, die spezifisch für dieser Region sind und sich von deiner Hauptkultur unterscheiden, die unter allen deinen Völkern geteilt wird. Es können auch andere fremde Kulturen vorhanden sein.
 
 #regcltr_intgr
 Kulturelle Integration der Nation
 
 #regcltr_intgr_c1
-Die Kultur dieses Gebietes hat die Nation [x] vollständig integriert, da sie schon seit langem Teil davon ist.
+Die Kultur dieser Regiones hat die Nation [x] vollständig integriert, da sie schon seit langem Teil davon ist.
 
 #regcltr_intgr_c2
 Die Übertragung dieses Territoriums zwischen den Nationalstaatenmitgliedern erzeugt 50% weniger Widerstand.
 
 #regcltr_notintgr_c1
-Die Kultur dieses Gebietes hat die Nation [x] noch nicht integriert. Es wird in [y] sein. 
+Die Kultur dieser Regiones hat die Nation [x] noch nicht integriert. Es wird in [y] sein. 
 
 #reggrwth_1
-Das Wachstum stellt die aktuelle demografische Entwicklung deiner Bevölkerung in diesem Gebiet dar. 
+Das Wachstum stellt die aktuelle demografische Entwicklung deiner Bevölkerung in dieser Region dar. 
 
 #reggrwth_2
 Das Wachstum hängt stark vom "Zuchtwillen" der Menschen ab, der bestimmt, wie viele Paare in der nächsten Generation Kinder bekommen werden.
@@ -1653,7 +1656,7 @@ Dies ist der durchschnittliche Gesundheitsbonus für Häuser, die von dieser Bev
 Gesamtbevölkerung
 
 #poph_totpop_c1
-Die Gesamtbevölkerung im Gebiet verringert die Gesundheit.
+Die Gesamtbevölkerung im Region verringert die Gesundheit.
 
 #poph_foodqual
 Lebensmittelqualität von [x]
@@ -1773,7 +1776,7 @@ Die Summe deiner aktuellen Kenntnisse erhöht die allgemeine Intelligenz.
 Die Kultur des Territoriums
 
 #popint_cult_c1
-Die gesamte Kultur in diesem Gebiet erhöht die allgemeine Intelligenz der Bevölkerung.
+Die gesamte Kultur in dieser Region erhöht die allgemeine Intelligenz der Bevölkerung.
 
 #popneed_qual
 Zufriedenheitsqualität
@@ -1866,19 +1869,19 @@ Menge der durch Verfall verlorenen Staatskultur.
 Maximale Speicherkapazität
 
 #cltrstat_dovrs_c1
-Verfall verursacht, wenn die derzeitige maximale Kapazität der Speicherkultur in diesem Gebiet erreicht wird.
+Verfall verursacht, wenn die derzeitige maximale Kapazität der Speicherkultur in dieser Region erreicht wird.
 
 #cltrstat_dovrs_c2
-Diese Kapazität nimmt zu, je mehr Menschen sich im Gebiet aufhalten.
+Diese Kapazität nimmt zu, je mehr Menschen sich im Region aufhalten.
 
 #cltrstat_dinf
 Kultureller Einfluss
 
 #cltrstat_dinf_c1
-Verfall durch den Verlust des Einflusses der Staatskultur im Vergleich zu anderen Kulturen, die in diesem Gebiet vorkommen.
+Verfall durch den Verlust des Einflusses der Staatskultur im Vergleich zu anderen Kulturen, die in dieser Region vorkommen.
 
 #cltrstat_dinf_c2
-Dieses Gebiet produziert [x] der Staatskultur aus einer Gesamtproduktion der [y]-Kultur, was zu einem kulturellen Zieleinfluss von [z]% in diesem Gebiet führt.
+dieser Region produziert [x] der Staatskultur aus einer Gesamtproduktion der [y]-Kultur, was zu einem kulturellen Zieleinfluss von [z]% in dieser Region führt.
 
 #cltrstat_dinf_c3
 Der Einfluss der aktuellen Zustandskultur beträgt [x]%.
@@ -1887,13 +1890,13 @@ Der Einfluss der aktuellen Zustandskultur beträgt [x]%.
 Kapazität des Kulturstocks
 
 #cltrstat_stock_c1
-Dieses Gebiet hat derzeit [x] Kultur, die aus maximal [y] gespeichert ist.
+dieser Region hat derzeit [x] Kultur, die aus maximal [y] gespeichert ist.
 
 #cltrstat_stock_c2
-Die Gesamtkultur in diesem Gebiet nimmt zu.
+Die Gesamtkultur in dieser Region nimmt zu.
 
 #cltrstat_stock_c3
-Die Gesamtkultur in diesem Gebiet nimmt ab, weil sie über ihrem derzeitigen Maximum liegt!
+Die Gesamtkultur in dieser Region nimmt ab, weil sie über ihrem derzeitigen Maximum liegt!
 
 #cltrstat_ststock
 Staatskultur
@@ -2043,7 +2046,7 @@ Die gesamte staatliche Energie, die von allen derzeit aktiven Politiken verbrauc
 Territorien
 
 #statepow_nbcit_c1
-Summe der Kosten der Staatsmacht für alle Deine kontrollierten Gebiete (die Kosten können je nach Status der einzelnen Gebiete variieren). 
+Summe der Kosten der Staatsmacht für alle Deine kontrollierten Regione (die Kosten können je nach Status der einzelnen Regione variieren). 
 
 #statepow_debt
 Schulden
@@ -2115,7 +2118,7 @@ Die aktuelle Konfliktvariation des Territoriums
 Bevölkerung
 
 #conf_gpop_c1
-Ausmaß des Konflikts, der von der derzeitigen Bevölkerung im Gebiet verursacht wird.
+Ausmaß des Konflikts, der von der derzeitigen Bevölkerung im Region verursacht wird.
 
 #conf_gstate
 Richtlinien
@@ -2145,7 +2148,7 @@ Die aktuelle Regierungspolitik kann den Basiskonflikt der Bevölkerung beeinflus
 Dienstleistungen ( [x]%)
 
 #conf_serv_c1
-Dienstleistungen in dem Gebiet wie Justiz können die endgültige Konfliktstufe verringern, je nachdem, wie gut die Bevölkerung Zugang zu ihnen hat.
+Dienstleistungen in dem Region wie Justiz können die endgültige Konfliktstufe verringern, je nachdem, wie gut die Bevölkerung Zugang zu ihnen hat.
 
 #loyal_c1
 Die aktuelle Loyalität des Territoriums
@@ -2229,13 +2232,13 @@ Die Bereitstellung von militärischer Ausrüstung für die Bürger des Territori
 Bevölkerungszahl
 
 #loyal_poppow_c1
-Je mehr Einwohner es gibt, desto weniger Autorität gibt es. Die Gesamtzahl der Einwohner verringert die Loyalität des Gebietes.
+Je mehr Einwohner es gibt, desto weniger Autorität gibt es. Die Gesamtzahl der Einwohner verringert die Loyalität des Regiones.
 
 #loyal_conf
 Konflikt
 
 #loyal_conf_c1
-Territorialkonflikte reduzieren die Autorität deiner Regierung in diesem Gebiet, da sie Instabilität erzeugen.
+Territorialkonflikte reduzieren die Autorität deiner Regierung in dieser Region, da sie Instabilität erzeugen.
 
 #loyal_events
 Ereignisse
@@ -2259,19 +2262,19 @@ Jüngste staatliche Ereignisse, die die Loyalität des Territoriums vorübergehe
 Widerstand!
 
 #loyal_resist_c1
-Loyalisten gegenüber dem früheren Eigentümer dieses Gebietes ( [x])
+Loyalisten gegenüber dem früheren Eigentümer dieser Regiones ( [x])
 
 #loyal_decr
-Warnung: Obwohl die Loyalität derzeit gut ist, nimmt sie in Richtung gefährlicher Niveaus ab, und dieses Gebiet wird bald von einem Volksaufstand bedroht sein.
+Warnung: Obwohl die Loyalität derzeit gut ist, nimmt sie in Richtung gefährlicher Niveaus ab, und dieser Region wird bald von einem Volksaufstand bedroht sein.
 
 #loyal_risk
-Achtung: Dieses Gebiet ist derzeit von einem Volksaufstand bedroht!
+Achtung: dieser Region ist derzeit von einem Volksaufstand bedroht!
 
 #loyal_good
-Dieses Gebiet ist derzeit nicht von einem Volksaufstand bedroht.
+dieser Region ist derzeit nicht von einem Volksaufstand bedroht.
 
 #loyal_resist_1
-Warnung: Eine Widerstandsbewegung von [x] Punkten ist in diesem Gebiet vorhanden!
+Warnung: Eine Widerstandsbewegung von [x] Punkten ist in dieser Region vorhanden!
 
 #loyal_resist_2
 Du bist von einem Partisanenaufstand bedroht (kann unabhängig von der Loyalität der Bevölkerung geschehen).
@@ -2292,37 +2295,37 @@ In diesem Bereich ist eine Widerstandsbewegung vorhanden. Dies kann jederzeit un
 Diese Widerstandsbewegung ist loyal zu [x].
 
 #resist_loyal_c2
-Wenn es Partisanen gelingt, dieses Gebiet zu befreien, werden sie automatisch anbieten, sich diesem Staat wieder anzuschließen.
+Wenn es Partisanen gelingt, dieser Region zu befreien, werden sie automatisch anbieten, sich diesem Staat wieder anzuschließen.
 
 #resist_max
 Maximaler Widerstand: [x]
 
 #resist_max_c1
-Die maximalen Widerstandspunkte, die dieses Gebiet haben kann. Der Widerstand wird durch die Gesamtbevölkerung des Territoriums begrenzt.
+Die maximalen Widerstandspunkte, die dieser Region haben kann. Der Widerstand wird durch die Gesamtbevölkerung des Territoriums begrenzt.
 
 #resist_hloss
 Niederlagen Strafe: [x] Ehre
 
 #resist_hloss_c1
-Die Menge an Ehre, die als Strafe verloren geht, wenn es Partisanen gelingt, dieses Gebiet zu befreien. 
+Die Menge an Ehre, die als Strafe verloren geht, wenn es Partisanen gelingt, dieser Region zu befreien. 
 
 #resist_tot_c1
 Die Widerstandsbewegung weist derzeit [x] auf ein Potential von maximal [y] Punkten hin.
 
 #resist_tot_c2
-Je mehr Punkte, desto stärker ist der Widerstand in diesem Gebiet und desto mehr Bevölkerung ist am Widerstand beteiligt, was potenziell mehr Partisanen bedeutet, wenn es zu einem Aufstand kommt.
+Je mehr Punkte, desto stärker ist der Widerstand in dieser Region und desto mehr Bevölkerung ist am Widerstand beteiligt, was potenziell mehr Partisanen bedeutet, wenn es zu einem Aufstand kommt.
 
 #admin_capacit
 Produktion
 
 #admin_capacit_c1
-Die gesamte in diesem Gebiet verfügbare Verwaltung.
+Die gesamte in dieser Region verfügbare Verwaltung.
 
 #admin_streg
 Territorialpolitik
 
 #admin_streg_c1
-Verwaltung, die aus aktiven Stromrichtlinien generiert wird, die alle Gebiete betreffen.
+Verwaltung, die aus aktiven Stromrichtlinien generiert wird, die alle Regione betreffen.
 
 #admin_stcity
 Stadtpolitik
@@ -2352,19 +2355,19 @@ Lokale Faktoren, die die Verwaltung beeinflussen.
 Populationsmanagement
 
 #admin_pop_c1
-Die Verwaltungskosten für die gesamte Bevölkerung dieses Gebiets.
+Die Verwaltungskosten für die gesamte Bevölkerung dieser Regions.
 
 #admin_bdg
 Gebäudemanagement
 
 #admin_bdg_c1
-Gesamtkosten der Gebäude, die in diesem Gebiet verwaltet werden müssen.
+Gesamtkosten der Gebäude, die in dieser Region verwaltet werden müssen.
 
 #admin_glob
 global
 
 #admin_glob_c1
-Globale Faktoren, die die Verwaltung dieses Gebiets beeinflussen.
+Globale Faktoren, die die Verwaltung dieser Regions beeinflussen.
 
 #admin_nbcit
 Anzahl der Regionen
@@ -2382,7 +2385,7 @@ Anzahl der zusätzlichen Regionen unter deiner Kontrolle: [x]
 Die Kapitaldistanz kostet dich [x]% der gesamten produzierten Verwaltung von [y].
 
 #admin_dist_c2
- [x]% aus der Entfernung von [y] Gebieten mit der Hauptstadt
+ [x]% aus der Entfernung von [y] Regionen mit der Hauptstadt
 
 #admin_dist_c3
  [x]% vom territorialen Status Entfernungsmodifikator von [y]%.
@@ -2391,16 +2394,16 @@ Die Kapitaldistanz kostet dich [x]% der gesamten produzierten Verwaltung von [y]
 Regionale Ansprüche
 
 #admin_claim_c1
-Die Verwaltungskosten für alle Gebietsansprüche dieser Region.
+Die Verwaltungskosten für alle Regionsansprüche dieser Region.
 
 #admin_claim_c2
 Anzahl der Schadensfälle: [x]
 
 #admin_ter
-Regionale Gebiete
+Regionale Regione
 
 #admin_ter_c1
-Die Verwaltungskosten aller zusätzlichen Gebiete, die zu dieser Region gehören.
+Die Verwaltungskosten aller zusätzlichen Regione, die zu dieser Region gehören.
 
 #cultr_state
 Staatskultur
@@ -2568,10 +2571,10 @@ Erstellen einer neuen Truppe
 Der Status dieses Territoriums erlaubt es dir nicht, Armeen darin zu rekrutieren.
 
 #ui_recruit_err2
-Es ist dir nicht erlaubt, Milizen in diesem Gebiet zu rekrutieren.
+Es ist dir nicht erlaubt, Milizen in dieser Region zu rekrutieren.
 
 #ui_recruit_err3
-Es ist dir nicht erlaubt, Armeen in diesem Gebiet zu rekrutieren.
+Es ist dir nicht erlaubt, Armeen in dieser Region zu rekrutieren.
 
 #ui_recruit_rnfrc
 Verstärkung der Truppe
@@ -2583,7 +2586,7 @@ Auflösen
 Transfer
 
 #ui_recruit_support_1
-Militärische Unterstützung dieses Gebietes
+Militärische Unterstützung dieser Regiones
 
 #ui_recruit_support_2
 Maximale Unterstützung: [x] Einheiten. 
@@ -2598,19 +2601,19 @@ Gesamte aktive Bevölkerung: [x] Porcos.
 Arbeitslos: [x] Porcos.
 
 #ui_recruit_resist
-Du kannst keine neuen Einheiten in einem Gebiet mit Widerstand rekrutieren.
+Du kannst keine neuen Einheiten in einem Region mit Widerstand rekrutieren.
 
 #ui_recruit_immo
 Du kannst keine Truppen modifizieren, während diese Formation stillgelegt ist.
 
 #ui_recruit_nothm
-Du kannst keine neuen Einheiten außerhalb des Heimatgebiets dieser Formation rekrutieren ( [x]).
+Du kannst keine neuen Einheiten außerhalb des HeimatRegions dieser Formation rekrutieren ( [x]).
 
 #ui_recruit_cant
-Du kannst keine Truppen in Gebieten rekrutieren oder auflösen, die du nicht kontrollierst.
+Du kannst keine Truppen in Regionen rekrutieren oder auflösen, die du nicht kontrollierst.
 
 #ui_recruit_ovrdrft
-Kann nicht rekrutiert werden: Unterstützungslimit erreicht und Überziehung ist in diesem Gebiet nicht erlaubt.
+Kann nicht rekrutiert werden: Unterstützungslimit erreicht und Überziehung ist in dieser Region nicht erlaubt.
 
 #ui_recruit_noup
 (Milizenunterhalt ist niedriger, da er nicht das Gehalt eines Soldaten beinhaltet)
@@ -2652,7 +2655,7 @@ Nahkampf-Einheiten
 Bereichseinheiten
 
 #ui_recruit_totpop
-Die Gesamtbevölkerung, die für diese Einheit im Gebiet verfügbar ist: [x] 
+Die Gesamtbevölkerung, die für diese Einheit im Region verfügbar ist: [x] 
 
 #ui_recruit_inact
 Derzeit inaktiv: [x]
@@ -2739,10 +2742,10 @@ neue Truppe
 (nicht verfügbar)
 
 #ui_foinv_cant
-Du kannst keine Ressourcen aus einem Gebiet nehmen, das du nicht kontrollierst!
+Du kannst keine Ressourcen aus einem Region nehmen, das du nicht kontrollierst!
 
 #ui_foinv_empreg
-Du kannst keine Ressourcen aus einem leeren Gebiet laden!
+Du kannst keine Ressourcen aus einem leeren Region laden!
 
 #ui_foinv_load
 Laden von Ressourcen in das Inventar der Formation
@@ -2874,13 +2877,13 @@ Es gibt nichts, was dieses Gebäude hier ausbeuten könnte.
 Dieses Gebäude kann nicht mehr als [x] [y] haben.
 
 #ui_dpltool_needreg
-Du musst dich in der Gebietsansicht befinden, um Truppeneinsätze anpassen zu können!
+Du musst dich in der Regionsansicht befinden, um Truppeneinsätze anpassen zu können!
 
 #ui_dpltool
 STRATEGISCHES TOOL
 
 #ui_dpltool_dscr
-Entwickle die Verteidigungsstrategie deiner Formationen in diesem Gebiet, im Falle eines Kampfes.
+Entwickle die Verteidigungsstrategie deiner Formationen in dieser Region, im Falle eines Kampfes.
 
 #ui_dpltool_formtog
 (klicke hier, um die Bereitstellung dieser Formation umzuschalten)
@@ -2922,10 +2925,10 @@ Lagerposition verschieben
 Bist du sicher, dass du diese Formation auflösen willst?
 
 #bc_menuform_disb_2
-Wenn du diese Formation in einem deiner kontrollierten Gebiete auflöst, werden das gesamte Inventar und die Ausrüstung der Truppen in diesem Gebiet entladen. Alle Einheiten werden deiner Bevölkerung integriert.
+Wenn du diese Formation in einem deiner kontrollierten Regione auflöst, werden das gesamte Inventar und die Ausrüstung der Truppen in dieser Region entladen. Alle Einheiten werden deiner Bevölkerung integriert.
 
 #bc_menuform_disb_3
-Du kannst dich nicht in Gebieten auflösen, die du nicht kontrollierst!
+Du kannst dich nicht in Regionen auflösen, die du nicht kontrollierst!
 
 #menuform_pwr
 Dieser Formationstyp kostet [x] State Power zur Aufrechterhaltung.
@@ -2973,7 +2976,7 @@ Münzen
 Keine Kenntnisse zu teilen!
 
 #treaterm_noreg
-Keine Gebiete, die für die Übertragung gültig sind!
+Keine Regione, die für die Übertragung gültig sind!
 
 #b_endtreaty
 Brecht den Vertrag!
@@ -3084,7 +3087,7 @@ lagert
 in der Stadt
 
 #ui_form_AP_d2
-- Gebiet [y]: [x]
+- Region [y]: [x]
 
 #ui_form_AP_enm
 Feind
@@ -3108,7 +3111,7 @@ Grundlegende Aktionspunkte kosten für das Verschieben eines Territoriumskachels
 - Armeegröße ( [y]%): [x]
 
 #ui_tile_movcost
-Die Bewegungskosten dieses Gebiets werden verwendet, um die Kosten der Aktionspunkte für die Einheiten zu bestimmen, die sich durch dieses Gebiet bewegen.
+Die Bewegungskosten dieser Regions werden verwendet, um die Kosten der Aktionspunkte für die Einheiten zu bestimmen, die sich durch dieser Region bewegen.
 
 #ui_tile_movcost_d1
 - Geländekosten [y]: [x]
@@ -3117,16 +3120,16 @@ Die Bewegungskosten dieses Gebiets werden verwendet, um die Kosten der Aktionspu
 - Diplomatische Haltung [y]: [x]
 
 #ui_tile_movcost_frd
-freundliches Gebiet
+freundliches Region
 
 #ui_tile_movcost_enm
-feindliches Gebiet
+feindliches Region
 
 #ui_tile_movcost_set
 ist abgerechnet
 
 #ui_form_mltreq
-Erfordert [x] Porcos im Gebiet.
+Erfordert [x] Porcos im Region.
 
 #ui_form_mltmiss
 Nicht genug Bevölkerung, um diese Miliz vollständig in den Dreck zu ziehen!
@@ -3141,7 +3144,7 @@ Wir können sicher lagern oder ihr Territorium durchqueren.
 Diese Formation ist uns gegenüber feindlich gesinnt! 
 
 #ui_form_diplo_h2
-Wenn diese Formation auf eine unserer Einheiten in einem Gebiet trifft oder wenn wir versuchen, ihren aktuellen Standort zu durchqueren, löst sie einen Kampf aus.
+Wenn diese Formation auf eine unserer Einheiten in einem Region trifft oder wenn wir versuchen, ihren aktuellen Standort zu durchqueren, löst sie einen Kampf aus.
 
 #ui_form_sprt
 zu Hause
@@ -3153,13 +3156,13 @@ Die Heimatstadt, die diese Einheiten unterstützt: Schweine werden alt und müss
 Diese Formation benötigt derzeit [x] Porcos pro Generation aus ihrer Heimat, um gepflegt zu werden.
 
 #ui_form_sethome
-Aktuelles Gebiet als Heimat festlegen
+Aktuelles Region als Heimat festlegen
 
 #ui_form_invhom_1
-Du kannst leere Gebiete nicht als Heimat festlegen: Es muss ein Gebiet sein, das du besitzt.
+Du kannst leere Regione nicht als Heimat festlegen: Es muss ein Region sein, das du besitzt.
 
 #ui_form_invhom_2
-Du kannst keine fremden Gebiete als Heimat festlegen: Es muss ein Gebiet sein, das du besitzt.
+Du kannst keine fremden Regione als Heimat festlegen: Es muss ein Region sein, das du besitzt.
 
 #ui_form_upkp
 Aufrechterhaltung dieser Formation
@@ -3171,37 +3174,37 @@ Aufrechterhaltung dieser Formation
 (geringerer Unterhalt für Milizen: nur Ausrüstung)
 
 #b_renonce
-Verzicht auf die Kontrolle über dieses Gebiet
+Verzicht auf die Kontrolle über dieser Region
 
 #err_reg_rnnc1
-Auf dieses Gebiet kann nicht verzichtet werden, solange in ihm eine Schlacht stattfindet.
+Auf dieser Region kann nicht verzichtet werden, solange in ihm eine Schlacht stattfindet.
 
 #err_reg_rnnc2
-Auf dieses Gebiet kann nicht verzichtet werden, solange es eine aktive Widerstandsbewegung hat.
+Auf dieser Region kann nicht verzichtet werden, solange es eine aktive Widerstandsbewegung hat.
 
 #err_reg_rnnc3
-Der aktuelle Status dieses Gebiets erlaubt es dir nicht, auf seine Kontrolle zu verzichten.
+Der aktuelle Status dieser Regions erlaubt es dir nicht, auf seine Kontrolle zu verzichten.
 
 #b_abandon
-Evakuiere dieses Gebiet.
+Evakuiere dieser Region.
 
 #err_reg_abdn1
-Dieses Gebiet kann nicht evakuiert werden, solange dort eine Schlacht stattfindet.
+dieser Region kann nicht evakuiert werden, solange dort eine Schlacht stattfindet.
 
 #err_reg_abdn2
-Dieses Gebiet kann nicht evakuiert werden, weil seine Loyalität zu gering ist.
+dieser Region kann nicht evakuiert werden, weil seine Loyalität zu gering ist.
 
 #err_reg_abdn3
-Dieses Gebiet kann nicht evakuiert werden, solange es eine aktive Widerstandsbewegung aufweist.
+dieser Region kann nicht evakuiert werden, solange es eine aktive Widerstandsbewegung aufweist.
 
 #err_reg_abdn4
-Der aktuelle Status dieses Gebietes erlaubt es Ihnen nicht, seine Evakuierung anzuordnen.
+Der aktuelle Status dieser Regiones erlaubt es Ihnen nicht, seine Evakuierung anzuordnen.
 
 #b_regclaim
-Anspruchsgebiet
+AnspruchsRegion
 
 #b_regunclaim_1
-Du kannst dieses Gebiet nicht beanspruchen: es wird frei von jeglichem Eigentum.
+Du kannst dieser Region nicht beanspruchen: es wird frei von jeglichem Eigentum.
 
 #b_regunclaim_2
 WARNUNG: Durch den freiwilligen Widerruf dieser Forderung verlierst 2 der Ehre!
@@ -3210,19 +3213,19 @@ WARNUNG: Durch den freiwilligen Widerruf dieser Forderung verlierst 2 der Ehre!
 Territorium beanspruchen.....
 
 #regclaim_txt
-Du kannst dieses Gebiet beanspruchen und es mit einer deiner Regionen verbinden. Dies wird die Verwaltung in die Hauptstadt der Region kosten. Wenn Deine Stadt die Verwaltung verliert, verlierst automatisch Deine Ansprüche (beachte, dass nicht beanspruchte Gebiete mit einer kleinen Ehrenstrafe belegt sind).
+Du kannst dieser Region beanspruchen und es mit einer deiner Regionen verbinden. Dies wird die Verwaltung in die Hauptstadt der Region kosten. Wenn Deine Stadt die Verwaltung verliert, verlierst automatisch Deine Ansprüche (beachte, dass nicht beanspruchte Regione mit einer kleinen Ehrenstrafe belegt sind).
 
 #regclaim_par
 Mutterland
 
 #regclaim_err1
-Du kannst dieses Gebiet nicht beanspruchen, weil es derzeit von ausländischen Einheiten besetzt ist!
+Du kannst dieser Region nicht beanspruchen, weil es derzeit von ausländischen Einheiten besetzt ist!
 
 #regclaim_err2
-Zu wenig Administration! Du kannst mit dieser Region keine neuen Gebiete beanspruchen.
+Zu wenig Administration! Du kannst mit dieser Region keine neuen Regione beanspruchen.
 
 #regclaim_err3
-Kolonien können keine neuen Gebiete beanspruchen!
+Kolonien können keine neuen Regione beanspruchen!
 
 #regclaim_acst
 Verwaltungskosten
@@ -3231,7 +3234,7 @@ Verwaltungskosten
 Die Aufrechterhaltung dieses Anspruchs kostet die Verwaltung [x] aus dem Mutterland.
 
 #b_movcapit
-Dieses Gebiet als Hauptstadt festlegen
+dieser Region als Hauptstadt festlegen
 
 #b_actv_trt_perm
 festes Engagement
@@ -3264,7 +3267,7 @@ Du kannst dich hier nicht bewegen.
 Diese Formation ist derzeit immobilisiert und kann sich nicht bewegen!
 
 #ui_wrldmov_er4
-Du kannst dich nicht hierher bewegen, weil du kein Durchfahrtsrecht mit dem Besitzer dieses Gebietes hast!
+Du kannst dich nicht hierher bewegen, weil du kein Durchfahrtsrecht mit dem Besitzer dieser Regiones hast!
 
 #ui_wrldmov_er5
 Diese Formation kann das Lager erst dann auflösen, wenn sie mindestens 50 Aktionspunkte hat.
@@ -3276,10 +3279,10 @@ Du kannst dieser Formation keine Befehle erteilen, weil sie derzeit stillgelegt 
 Anzahl der Mitarbeiter, die der Produktion zugeordnet sind.
 
 #ui_bdg_nbdstb
-Anzahl der Arbeiter, die mit dem Verkauf der produzierten Waren dieses Gebäudes beauftragt sind.
+Anzahl der Arbeiter, die mit dem Verkauf der produzierten Güter dieses Gebäudes beauftragt sind.
 
 #ui_bdg_nbrsrch2
- [x] [y] aus [z] in diesem Gebiet sind derzeit Forschungsprojekten zugeordnet.
+ [x] [y] aus [z] in dieser Region sind derzeit Forschungsprojekten zugeordnet.
 
 #ui_bdg_wf_dscr2
  [x] Produktion von Arbeitskräften * [y] Effizienz = [z] der Gesamtbelegschaft
@@ -3399,7 +3402,7 @@ Der Umfang der Bauarbeiten, die dieses Gebäude derzeit von professionellen Bauh
 Inventarisierung
 
 #ui_regres_inv_c
-Auflistung aller Ressourcen und Dienstleistungen dieses Gebiets.
+Auflistung aller Ressourcen und Dienstleistungen dieser Regions.
 
 #ui_regres_mtrd
 Markthandel
@@ -3423,7 +3426,7 @@ Kaufen und Verkaufen
 Importe
 
 #ui_regres_totimp_c1
-Importierte Waren werden von Ihnen zu ihrem Handelsroutenpreis gekauft und dann im Gebiet zu ihrem lokalen Preis verkauft.
+Importierte Güter werden von Ihnen zu ihrem Handelsroutenpreis gekauft und dann im Region zu ihrem lokalen Preis verkauft.
 
 #ui_regres_totimp_c2
 Einkaufskosten von der Handelsroute:
@@ -3438,7 +3441,7 @@ Gekaufte Ladung:
 Exporte
 
 #ui_regres_totexp_c1
-Exportierte Waren werden von Ihnen zu ihrem lokalen Preis von den Produzenten dieses Gebiets gekauft und dann zu ihrem Handelsroutenpreis an den Importeur verkauft.
+Exportierte Güter werden von Ihnen zu ihrem lokalen Preis von den Produzenten dieser Regions gekauft und dann zu ihrem Handelsroutenpreis an den Importeur verkauft.
 
 #ui_regres_totexp_c2
 Einkaufskosten bei lokalen Produzenten:
@@ -3480,13 +3483,13 @@ Betreute Handelsrouten
 verfügbar für das Handelsnetz
 
 #ui_regres_makeav_c
-Wenn diese Option aktiviert ist, kann der Frachtdienst dieses Gebiets auch von jedem in deinem Handelsnetzwerk gemietet werden.
+Wenn diese Option aktiviert ist, kann der Frachtdienst dieser Regions auch von jedem in deinem Handelsnetzwerk gemietet werden.
 
 #ui_regres_tax
 Steuer
 
 #ui_regres_tax_c
-Besteuerung eines Prozentsatzes des Gesamtwertes aller Waren jeder Handelsroute, die von dieser Stadt betrieben wird.
+Besteuerung eines Prozentsatzes des Gesamtwertes aller Güter jeder Handelsroute, die von dieser Stadt betrieben wird.
 
 #ui_regres_prod
 Produktion
@@ -3525,7 +3528,7 @@ Konkurrierende Angebote in unserem Handelsnetzwerk:
 Handelsangebot stornieren
 
 #button_trtimp_c1
-Du importierst derzeit [x] von [y] von [z] in dieses Gebiet für insgesamt[v] Münzen.
+Du importierst derzeit [x] von [y] von [z] in dieser Region für insgesamt[v] Münzen.
 
 #button_trtexp_c1
 du exportierst derzeit [x] von [y] nach [z] für insgesamt[v] Münzen.
@@ -3546,7 +3549,7 @@ Handelsroutenbetreiber
 Eine Handelsroute überträgt einen ständigen Ressourcenfluss zwischen den Städten. Für den Betrieb ist ein Frachtdienst erforderlich. 
 
 #ui_troute_opdscr1
-Der Handelsroutenbetreiber ist die Stadt, die sich mit dem Transport der Waren beschäftigt.
+Der Handelsroutenbetreiber ist die Stadt, die sich mit dem Transport der Güter beschäftigt.
 
 #ui_troute_opdscr2
 Es kann die Stadt sein, die die Handelsroute öffnet, oder jede andere Stadt in deinem Handelsnetzwerk, die einen Frachtdienst zur Verfügung gestellt hat. 
@@ -3573,7 +3576,7 @@ Dieser Faktor hängt von der längsten der beiden Entfernungen zwischen dem Betr
 längste Entfernung vom Bediener
 
 #ui_troute_opetax_c1
-Ein Handelsroutenbetreiber kann auch einen Prozentsatz des Wertes aller Waren besteuern, die durch sein Gebiet reisen.
+Ein Handelsroutenbetreiber kann auch einen Prozentsatz des Wertes aller Güter besteuern, die durch sein Region reisen.
 
 #ui_troute_maxava
 Ladung verfügbar
@@ -3588,7 +3591,7 @@ Offene Handelsroute
 Anwenden
 
 #ui_troute_cgcost_c1
-Gesamtkosten der Ladung, die dieses Gebiet als Betreiber der Handelsroute nutzt.
+Gesamtkosten der Ladung, die dieser Region als Betreiber der Handelsroute nutzt.
 
 #ui_troute_totcost_c1
 Die Gesamtkosten für die Aufrechterhaltung dieser Handelsroute.
@@ -3597,13 +3600,13 @@ Die Gesamtkosten für die Aufrechterhaltung dieser Handelsroute.
 Der Staat bezahlt und besitzt die gesamte importierte Ware aus der exportierenden Stadt, unabhängig von ihrer späteren Verwendung.
 
 #ui_troute_bdgtdscr2
-Alle späteren Einnahmen, die vor Ort aus dem Verkauf dieser Waren erzielt werden, gehen dann ausschließlich an den Staat.
+Alle späteren Einnahmen, die vor Ort aus dem Verkauf dieser Güter erzielt werden, gehen dann ausschließlich an den Staat.
 
 #ui_troute_bgc
-Warenaufwand
+Güteraufwand
 
 #ui_troute_bgc_c1
-Die Kosten für den Kauf von Waren in die Exportstadt.
+Die Kosten für den Kauf von Güter in die Exportstadt.
 
 #ui_troute_bcc
 Frachtkosten
@@ -3615,7 +3618,7 @@ Die Kosten für die Frachtdienstleistung, die dem Betreiber der Handelsroute zug
 Operatorsteuer
 
 #ui_troute_bt_c1
-Der Betrag, der an den Betreiber gezahlt wird, der Waren besteuert, die durch ihre Stadt fahren.
+Der Betrag, der an den Betreiber gezahlt wird, der Güter besteuert, die durch ihre Stadt fahren.
 
 #ui_troute_open
 Es wurde eine neue Handelsroute eröffnet!
@@ -3636,10 +3639,10 @@ Wähle eine Art der Formation aus
 Armee
 
 #menu_nfrm_t1_dscr2
-du benötigst ständige Unterstützung von zu Hause aus, um alternde Porcos zu ersetzen, und die Rekrutierung neuer Einheiten entfernt Porcos aus dem Gebiet.
+du benötigst ständige Unterstützung von zu Hause aus, um alternde Porcos zu ersetzen, und die Rekrutierung neuer Einheiten entfernt Porcos aus dem Region.
 
 #menu_nfrm_t1_dscr3
-Armeen können in andere Gebiete ziehen und ihre Präsenz erhöht die staatliche Autorität.
+Armeen können in andere Regione ziehen und ihre Präsenz erhöht die staatliche Autorität.
 
 #menu_nfrm_type2
 Miliz
@@ -3648,7 +3651,7 @@ Miliz
 Eine Miliz besteht aus der Bevölkerung des Territoriums selbst und mobilisiert sich nur zur Verteidigung des Territoriums, wenn es angegriffen wird.
 
 #menu_nfrm_t2_dscr3
-Allerdings kann die Miliz nicht in andere Gebiete ziehen und verringert die staatliche Autorität.
+Allerdings kann die Miliz nicht in andere Regione ziehen und verringert die staatliche Autorität.
 
 #menu_nfrm_type3
 Nationale Armee
@@ -3729,7 +3732,7 @@ Erforderliche Materialkosten: x] Münzen
 Benötigt [x] [y] von [z]
 
 #menu_prj_rmat2
-(klicke hier, um ein anderes Gebiet auszuwählen)
+(klicke hier, um ein anderes Region auszuwählen)
 
 #menu_prj_start
 PROJEKT STARTEN
@@ -3780,7 +3783,7 @@ Dieses Projekt ist zu [x]% abgeschlossen.
  [x] Forscher von [y] sind derzeit diesem Projekt zugeordnet und produzieren [z] Forschungspunkte, um es abzuschließen.
 
 #menu_prj_br_c2
-(klicke hier, um die Anzahl der zugewiesenen Forscher aus diesem Gebiet zu bearbeiten)
+(klicke hier, um die Anzahl der zugewiesenen Forscher aus dieser Region zu bearbeiten)
 
 #menu_prj_none1
 Du hast keine Projekte zur Verfügung!
@@ -3828,7 +3831,7 @@ Ermöglicht.....
 Neue Ressource
 
 #ui_tech_ter
-Neuer Gebietsstatus
+Neuer Regionsstatus
 
 #ui_tech_pol
 Neue Richtlinie
@@ -3870,7 +3873,7 @@ Immobilisiert
 Reichtum
 
 #menu_scr_w_c
-Punkte aus dem gesamten Vermögen, das in allen deinen Gebieten produziert wird.
+Punkte aus dem gesamten Vermögen, das in allen deinen Regionen produziert wird.
 
 #menu_scr_c
 Kultur
@@ -3957,7 +3960,7 @@ Punktzahl
 Siegpunkte
 
 #majmess_reglost
-Du hast die Kontrolle über das Gebiet verloren!
+Du hast die Kontrolle über das Region verloren!
 
 #b_admitdft
 ADMIT DEFEAT
@@ -3975,7 +3978,7 @@ Fruchtbarkeit
 neutral
 
 #btl_objtv_raid
-Schlachtzugsgebiet
+SchlachtzugsRegion
 
 #btl_objtv_sack
 Sackgasse
@@ -4221,7 +4224,7 @@ Wenn dieser Rang erlaubt ist, seine Untergebenen aus der Nation zu vertreiben.
 Kann demontiert werden
 
 #facttl_mngter_c1
-Wenn es diesem Rang erlaubt ist, Gebiete mit inaktiven Untergebenen direkt an andere Mitglieder der Nation weiterzugeben.
+Wenn es diesem Rang erlaubt ist, Regione mit inaktiven Untergebenen direkt an andere Mitglieder der Nation weiterzugeben.
 
 #facttl_sub1
 Direkte Untergebene
@@ -4296,7 +4299,7 @@ Dieser Charakter war eine Weile nicht mehr online und gilt nun als inaktiv. Er i
 TOT
 
 #facmmb_dead_c1
-Dieser Charakter ist tot: Er kontrolliert keine Gebiete und wurde von seinem Spieler verlassen.
+Dieser Charakter ist tot: Er kontrolliert keine Regione und wurde von seinem Spieler verlassen.
 
 #facmmb_rplc
 Ersetzen
@@ -4374,13 +4377,13 @@ Als Vorgesetzter von [x] und weil dieser Charakter jetzt inaktiv ist, erlaubt di
 Keine verfügbar!
 
 #facdsmtl_title
-Demontage von Gebieten
+Demontage von Regionen
 
 #facdsmtl_text
 Da [x] jetzt inaktiv ist, erlaubt dir dein Rang, seine Territorien zu demontieren und sie anderen Mitgliedern der Nation zuzuweisen.
 
 #facdsmtl_c1
-Wähle einen neuen Eigentümer für dieses Gebiet aus.
+Wähle einen neuen Eigentümer für dieser Region aus.
 
 #facdsmtl_err
 (kann nicht demontiert werden)
@@ -4401,7 +4404,7 @@ Name der Regierung
 Lege den Namen deiner Regierung fest (dann kombiniert mit deinem Nationaltitel).
 
 #regnam_unclaimed
-Nicht beanspruchtes Gebiet
+Nicht beanspruchtes Region
 
 #regnam_regof
 Region von [x]
@@ -4416,7 +4419,7 @@ Eigentumsverhältnisse
 Kein Besitzer
 
 #uiworld_settl_1
-Du kannst dieses Gebiet besiedeln, indem du einer Formation die Mission "Besiedeln" mit dieser Region als Ziel gibst.
+Du kannst dieser Region besiedeln, indem du einer Formation die Mission "Besiedeln" mit dieser Region als Ziel gibst.
 
 #uiworld_settl_2
 Damit dieser Missionstyp verfügbar ist, muss die Formation mindestens eine zivile Einheit enthalten.
@@ -4458,19 +4461,19 @@ Wahl
 GEGENE ABSTIMMUNG!
 
 #regstatus_claim_1
-Ein leeres Gebiet kann von deinem Staat beansprucht und in Deine offiziellen Grenzen aufgenommen werden.
+Ein leeres Region kann von deinem Staat beansprucht und in Deine offiziellen Grenzen aufgenommen werden.
 
 #regstatus_trtry_1
-Ein Gebiet ist Teil einer Region und wird von der wichtigsten Stadtverwaltung der Region verwaltet.
+Ein Region ist Teil einer Region und wird von der wichtigsten Stadtverwaltung der Region verwaltet.
 
 #regstatus_colony_1
-Autonomes Gebiet, das einem Staat zugeordnet ist.
+Autonomes Region, das einem Staat zugeordnet ist.
 
 #regstatus_occup_1
 Fremde Länder, die mit militärischer Gewalt unter Kontrolle gehalten werden. Nicht direkt Teil eines Staates und nicht in die Verwaltung der Regierung integriert, ist dies ein instabiler, desorganisierter Status.
 
 #regstatus_outpost_1
-Finanziell abhängiges, nicht verwaltetes und autonomes Gebiet. Nützlich für kleine entfernte Lager, um strategische Ressourcen zu nutzen.
+Finanziell abhängiges, nicht verwaltetes und autonomes Region. Nützlich für kleine entfernte Lager, um strategische Ressourcen zu nutzen.
 
 #regstatus_city_1
 Regionales Zentrum deines Staates, vollständig integriert und von deiner Regierung verwaltet.
@@ -4551,13 +4554,13 @@ kann nicht überzogen werden
 WARNUNG: Eine Änderung des aktuellen Status löst ein sofortiges Treueprogramm von [x] aus!
 
 #regstatus_claimoccup
-WARNUNG: Die Behauptung, dieses besetzte Gebiet zu besetzen, erhöht die Ehrenstrafe auf [z] im Falle einer Niederlage gegen Partisanen und löst eine sofortige Strafe von [x] Widerstand und [y] Treue aus!
+WARNUNG: Die Behauptung, dieses besetzte Region zu besetzen, erhöht die Ehrenstrafe auf [z] im Falle einer Niederlage gegen Partisanen und löst eine sofortige Strafe von [x] Widerstand und [y] Treue aus!
 
 #regstatus_title
-Gebietsstatus
+Regionsstatus
 
 #regstatus_txt
-Änderung des Verwaltungsstatus dieses Gebiets.....
+Änderung des Verwaltungsstatus dieser Regions.....
 
 #regstatus_setnew
 Neuen Status setzen auf
@@ -4566,13 +4569,13 @@ Neuen Status setzen auf
 Du kannst nur eine Hauptstadt haben: Deine derzeitige Hauptstadt verliert ihren Status und wird eine normale Stadt. Beachte, dass der Umzug deines Kapitals die Verwaltung und Kultur in deinen anderen Städten sowie die staatliche Macht und die Finanzen beeinflussen kann.
 
 #regstatus_setcit_1
-Dieses Gebiet wird eine neue Region bilden und zusätzliche staatliche Macht kosten. Du kannst dann andere Gebiete an diese Stadt als Teil dieser Region anhängen. 
+dieser Region wird eine neue Region bilden und zusätzliche staatliche Macht kosten. Du kannst dann andere Regione an diese Stadt als Teil dieser Region anhängen. 
 
 #regstatus_setcol_1
-WANRING: Das ist unumkehrbar. Du wirst die direkte Kontrolle über dieses Gebiet verlieren. Die Region erhält eine stabile Verwaltung, Loyalität und Kultur. Keine Wartungskosten und keine staatlichen Stromkosten. Erzeugt 5% Einkommenssteuer. Wenn ein Spieler darin spawnt, beginnt er in deiner Nation mit einem Kolonialvertrag von 5% Einkommensteuer. 
+WANRING: Das ist unumkehrbar. Du wirst die direkte Kontrolle über dieser Region verlieren. Die Region erhält eine stabile Verwaltung, Loyalität und Kultur. Keine Wartungskosten und keine staatlichen Stromkosten. Erzeugt 5% Einkommenssteuer. Wenn ein Spieler darin spawnt, beginnt er in deiner Nation mit einem Kolonialvertrag von 5% Einkommensteuer. 
 
 #regstatus_setcol_2
-Um eine Kolonie zu bilden, benötigt das Gebiet mindestens 150 Einwohner und mindestens 65 % der Grundbedürfnisse.
+Um eine Kolonie zu bilden, benötigt das Region mindestens 150 Einwohner und mindestens 65 % der Grundbedürfnisse.
 
 #setcolony_err1
 Das Territorium benötigt mindestens 150 Einwohner, um eine Kolonie zu werden!
@@ -4581,7 +4584,7 @@ Das Territorium benötigt mindestens 150 Einwohner, um eine Kolonie zu werden!
 Das Territorium benötigt mindestens 65% der lebenswichtigen Elemente, um eine Kolonie zu bilden!
 
 #setcolony_err3
-Das Gebiet hat zu viel Widerstand, um eine Kolonie zu werden!
+Das Region hat zu viel Widerstand, um eine Kolonie zu werden!
 
 #regstatus_err1
 Du kannst den Status deiner Hauptstadt nicht ändern!
@@ -4740,13 +4743,13 @@ Eindringen
 Schlacht
 
 #formact_claim
-Anspruchsgebiet
+AnspruchsRegion
 
 #formact_reclaim
-Rückgewinnungsgebiet
+RückgewinnungsRegion
 
 #formact_unclaim
-Nicht in Anspruch genommenes Gebiet
+Nicht in Anspruch genommenes Region
 
 #formhome_title
 Die Heimat dieser Formation zu verändern.....
@@ -4767,7 +4770,7 @@ Wähle die gewünschte Heimatregion für diese Formation aus.
 (Die Formation muss in der gewünschten Stadt positioniert werden, um sie darin umzusiedeln).
 
 #menu_mission_sel_c1
-Wähle die Aktion aus, die in diesem Gebiet durchgeführt werden soll.
+Wähle die Aktion aus, die in dieser Region durchgeführt werden soll.
 
 #chat_pm
 Nachricht [x]
@@ -4851,7 +4854,7 @@ Hinzufügen/Entfernen von Auswahl mit Strg+Linksklick.
 Auswahl aufheben: Rechtsklick.
 
 #regmenu_status_c1
-Aktueller Gebietsstatus: '[x]' (zum Ändern anklicken)
+Aktueller Regionsstatus: '[x]' (zum Ändern anklicken)
 
 #regmenu_powcost
 Dieser territoriale Status kostet dich derzeit [x] der Staatsgewalt, um ihn aufrechtzuerhalten.
@@ -4875,28 +4878,28 @@ Alle Wirkstoffe sind derzeit im Einsatz!
  [x]% der Wirkstoffe sind arbeitslos ( [y]).
 
 #regmenu_inc
-Haushaltssaldo dieses Gebiets
+Haushaltssaldo dieser Regions
 
 #regmenu_inc_dscr
 Sie ist das Ergebnis aller staatlichen Einnahmen und Ausgaben wie Steuern, Handelsbilanz, Gehälter und Unterhaltskosten.
 
 #regmenu_admin
-Verwaltungsbilanz dieses Gebiets
+Verwaltungsbilanz dieser Regions
 
 #regmenu_admin_dscr
-Ein schlecht verwaltetes Gebiet erzeugt mehr Verschwendung und Korruption und reduziert alle Einkommensquellen.
+Ein schlecht verwaltetes Region erzeugt mehr Verschwendung und Korruption und reduziert alle Einkommensquellen.
 
 #regmenu_wealth
-Gesamtvermögen dieses Gebietes
+Gesamtvermögen dieser Regiones
 
 #regmenu_wealth_dscr
-Der Reichtum ist eine objektive Messung aller produktiven Arbeiten, die derzeit in diesem Gebiet ausgeführt werden, unabhängig von ihren Marktwerten in Münzen.
+Der Reichtum ist eine objektive Messung aller produktiven Arbeiten, die derzeit in dieser Region ausgeführt werden, unabhängig von ihren Marktwerten in Münzen.
 
 #regmenu_gdp
-BIP dieses Gebiets
+BIP dieser Regions
 
 #regmenu_gdp_dscr
-Ein Wirtschaftsindikator, der die Summe aller in diesem Gebiet generierten Einkommen (Staat oder Bevölkerung) über einen Zeitraum von 10 Wirtschaftszyklen ist.
+Ein Wirtschaftsindikator, der die Summe aller in dieser Region generierten Einkommen (Staat oder Bevölkerung) über einen Zeitraum von 10 Wirtschaftszyklen ist.
 
 #regmenu_growth_1
 Aktuelle demografische Entwicklung: [x] Porcos (y).
@@ -4917,7 +4920,7 @@ Subjugieren
 Du kannst [x] automatisch unterwerfen.
 
 #subjug_dscr
-Dies wird den Krieg zwischen dir und [x] beenden. Dieser Staat wird in Deine Nation als dein Vasall integriert, mit einem Kapitulationsvertrag, der Ihnen Staatsmacht und Steuereinnahmen überträgt. Alle Gebiete, die derzeit von den Streitkräften deiner Nation besetzt sind, werden automatisch auf [x] zurückgesetzt.
+Dies wird den Krieg zwischen dir und [x] beenden. Dieser Staat wird in Deine Nation als dein Vasall integriert, mit einem Kapitulationsvertrag, der Ihnen Staatsmacht und Steuereinnahmen überträgt. Alle Regione, die derzeit von den Streitkräften deiner Nation besetzt sind, werden automatisch auf [x] zurückgesetzt.
 
 #subjug_cant
 Du kannst [x] noch nicht unterwerfen.
@@ -4935,7 +4938,7 @@ Unterwerft euch!
  [x] Menschen zogen von [y] nach [z] um und übertrugen die Kultur von ihrer Heimatstadt in [z].
 
 #info_supportlmt
-Dieses Gebiet kann nicht mehr Einheiten unterstützen und erlaubt keine Überziehung!
+dieser Region kann nicht mehr Einheiten unterstützen und erlaubt keine Überziehung!
 
 #displyr_c1
 Klicke hier, um eine Anzeigeebene auszuwählen.
@@ -4998,10 +5001,10 @@ Es ist die voreingestellte und übliche Art, ein Spiel am Anfang zu starten.
 Wähle Klimazonen aus, in denen du potenziell spawnen möchten.
 
 #ui_gen_tonovis
-Du kannst nicht in dieses Gebiet gehen, weil du keine Sicht darauf hast.
+Du kannst nicht in dieser Region gehen, weil du keine Sicht darauf hast.
 
 #ui_gen_regmen
-Gebietsmenü
+Regionsmenü
 
 #ui_bdginf_cons
 Baukosten
@@ -5070,7 +5073,7 @@ Stadterhaltung
 Die Gesamtkosten aller staatlichen Gehälter, die auf dem Territorium gezahlt werden.
 
 #regeco_ii_c1
-Einnahmen aus allen importierten Waren, die im Gebiet verkauft werden (zu ihrem lokalen Preis).
+Einnahmen aus allen importierten Güter, die im Region verkauft werden (zu ihrem lokalen Preis).
 
 #bc_gen_coin
 Treasury
@@ -5094,10 +5097,10 @@ aktuelle Zustandsenergie
 BIP
 
 #ui_gov_gdp_c1
-Das aktuelle Bruttoinlandsprodukt aller Gebiete.
+Das aktuelle Bruttoinlandsprodukt aller Regione.
 
 #ui_gov_gdp_c2
-Es wird berechnet, indem die Bruttoeinkommen, die in allen deinen Gebieten über 10 Produktionszyklen erwirtschaftet werden, addiert werden.
+Es wird berechnet, indem die Bruttoeinkommen, die in allen deinen Regionen über 10 Produktionszyklen erwirtschaftet werden, addiert werden.
 
 #ui_civ_on
 HINZUFÜGEN BEI DER ÜBERARBEITUNG
@@ -5163,7 +5166,7 @@ Die öffentliche Studie basiert auf der Kaufkraft aller Bevölkerungsschichten, 
 (Effekt begrenzt durch minimalen Preis von [x] Münzen!)
 
 #ui_price_arb_c1
-Ein Preisschwankungen kann auftreten, wenn es große Preisunterschiede zwischen diesem Gebiet und den nahe gelegenen Gebieten gibt ( deine oder ausländische, mit denen du Handelsbeziehungen hast).
+Ein Preisschwankungen kann auftreten, wenn es große Preisunterschiede zwischen dieser Region und den nahe gelegenen Regionen gibt ( deine oder ausländische, mit denen du Handelsbeziehungen hast).
 
 #ui_price_arb_c5
 Lokaler Preis vor Kursunterschied: [x] Münzen.
@@ -5175,7 +5178,7 @@ Durchschnittspreis in diesem Bereich der Welt: [x] Münzen.
 Mit einer Preisdifferenz von [x]% hat der Weltmarktpreis einen Einfluss von [y]% auf den lokalen Preis, was zu einem Arbitrageeffekt von [z] auf den Endpreis führt.
 
 #ui_price_arb_c4
-Keine Preisarbitrage: Keine nahegelegenen Gebiete nutzen derzeit diese Ressource.
+Keine Preisarbitrage: Keine nahegelegenen Regione nutzen derzeit diese Ressource.
 
 #ui_mres_ststk
 Staatseigentum
@@ -5187,7 +5190,7 @@ Ressourcen, die du direkt selbst als Staat besitzt, im Gegensatz zu dem Rest dav
 Du musst nicht die Ressourcen kaufen, die du bereits besitzt, wenn du sie verwendest, und du verdienst auch Einnahmen aus der Nutzung durch Dritte wie Branchen oder Händler.
 
 #ui_mres_ststk_c3
-Du besitzt derzeit [x] der [y] [z], die derzeit in diesem Gebiet gelagert sind.
+Du besitzt derzeit [x] der [y] [z], die derzeit in dieser Region gelagert sind.
 
 #ui_mres_stres
 Staatliche Ressourcen
@@ -5268,7 +5271,7 @@ Die gesamte Zustandsenergie, die durch die aktuell aktiven Stromrichtlinien erze
 Loyalität: [x]
 
 #admin_ter_c2
-Anzahl der annektierten Gebiete: [x]
+Anzahl der annektierten Regione: [x]
 
 #growth_oldpigs
 Altschweine Variation
@@ -5319,7 +5322,7 @@ Die Menge an Ressourcen, die diese Einheit tragen kann. Die Bestandskapazität d
 Verstärken
 
 #ui_foinv_forbid
-Du darfst nicht auf Ressourcen dieses Gebietes zugreifen.
+Du darfst nicht auf Ressourcen dieser Regiones zugreifen.
 
 #ui_reg_build_tertool
 Geländewerkzeuge
@@ -5451,13 +5454,13 @@ eigenes Territorium
 Bist du sicher?
 
 #ui_conf_renonce
-WARNUNG: Du wirst dieses Gebiet nicht mehr kontrollieren: Wenn du es allein lässt, wird es in die Anarchie fallen.
+WARNUNG: Du wirst dieser Region nicht mehr kontrollieren: Wenn du es allein lässt, wird es in die Anarchie fallen.
 
 #ui_conf_abandon
-Das Gebiet wird geräumt. Die gesamte Bevölkerung wird in eine von mehreren Formationen versetzt, die alle Ressourcen, die sie mit sich führen können, mitnehmen.
+Das Region wird geräumt. Die gesamte Bevölkerung wird in eine von mehreren Formationen versetzt, die alle Ressourcen, die sie mit sich führen können, mitnehmen.
 
 #ui_conf_capital
-Willst du dieses Gebiet wirklich zu deiner neuen Hauptstadt machen? 
+Willst du dieser Region wirklich zu deiner neuen Hauptstadt machen? 
 
 #b_actv_trt_eng
 engagiert für
@@ -5643,10 +5646,10 @@ Dieser Charakter kontrolliert keine Territorien und ist machtlos.
 Ausstoßen!
 
 #facdsmtl_err_c1
-Dieses Gebiet wurde vor kurzem integriert und ist nicht lange genug Teil deiner Nation, um über die Funktion "Zerlegen" übertragen zu werden.
+dieser Region wurde vor kurzem integriert und ist nicht lange genug Teil deiner Nation, um über die Funktion "Zerlegen" übertragen zu werden.
 
 #facdsmtl_err_c2
-Zeit, bis dieses Gebiet abgebaut werden kann: [x].
+Zeit, bis dieser Region abgebaut werden kann: [x].
 
 #uivote_mod_high
 Höchste Stimmen
