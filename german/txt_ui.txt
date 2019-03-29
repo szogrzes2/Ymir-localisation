@@ -1238,38 +1238,65 @@ Staatskasse
 #ui_gov_ecobalance
 Momentaner Finanzausgleich
 
+#ui_gov_legit
+Momentane Legitimität des Staates
+
+#ui_gov_power
+Momentane Staatsgewalt
+
 #ui_gov_pdgreform
-Du hast eine anstehende Reform, die nicht umgesetzt wird. Bist du sicher, dass du dieses Menü schließen und diese Reform ablehnen möchtest (politische Änderungen werden nicht übernommen)?
+Du hast eine ausstehende Reform, die nicht umgesetzt wird. Bist du sicher, dass du dieses Menü schließen und diese Reform ablehnen möchtest (politische Änderungen werden nicht übernommen)?
+
+#ui_gov_gdp
+BIP
+
+#ui_gov_gdp_c1
+Das aktuelle Bruttoinlandsprodukt aller Regione.
+
+#ui_gov_gdp_c2
+Es wird berechnet, indem das Bruttoeinkommen in allen deinen Regionen die über 10 Produktionszyklen erwirtschaftet wurden addiert werden.
 
 #bc_selpolicy
-Liste der verfügbaren neuen Richtlinien
+Liste aller verfügbaren Polizen
 
 #ui_gov_nopol
-keine neuen Richtlinien verfügbar!
+Keine Neuen Polizen verfügbar!
+
+#ui_civ_repl
+ersetzt '[x]'
 
 #ui_civ_req
-erfordert '[x]'.
+Setzt '[x]' voraus
+
+#ui_civ_on
+REFORM EINFÜHREN
 
 #ui_civ_on_c
-Klicke hier, um diese neue Politik in die Reform aufzunehmen.
+klicken um diese poliz zur reform beizufügen
 
 #ui_civ_off
-WIEDERHOLUNG DER REFORM
+REFORM WIEDERRUFEN
 
 #ui_civ_off_c
-Klicke hier, um den Widerruf dieser Politik in die Reform aufzunehmen.
+click to add the revocation of this policy to the reform
+
+#ui_civ_cncl
+REFORMIERUNG ABBRECHEN
+
+#ui_civ_cncl_c
+Klicken um diese ausstehende reformierung abzubrechen
 
 #ui_civ_warn
-(Beachte, dass du die Reform anwenden musst, bevor diese Änderungen tatsächlich in Kraft treten).
+(Hinweis: Du musst die reformierung noch bestätigen bevor sie aktiv wird)
 
 #ui_defaultciv
-Standardrichtlinie
+Standard Polizen
 
 #bc_defaultciv1
-Standardrichtlinien können nicht manuell widerrufen oder weitergegeben werden.
+Standard Polizen können nicht wiederrufen oder reformiert werden.
 
 #bc_defaultciv2
-sie erscheinen automatisch, wenn keine andere Richtlinie aktiv ist.
+diese werden automatisch in kraft treten wenn keine anderen Polizen aktiv sind.
 
 #ui_stateeffect
 STAATLICHE EFFEKTE
@@ -1284,13 +1311,13 @@ REFORM ANWENDEN
 Klicke hier, um Deine Reform einzureichen und alle Deine anstehenden Änderungen an den Richtlinien wirksam zu machen.
 
 #b_reform_cflct
-Reform-Effekt: +Konflikt in allen Regionen
+Reform-Effekt: +[x] Konflikt in allen Regionen
 
 #b_reform_cflct_c1
-Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] des Konflikts in allen deinen Regionen verursachen.
+Warnung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] des Konflikts in allen deinen Regionen verursachen.
 
 #b_reform_loyal
-Reformeffekt: - [x] Loyalität in allen Regionen
+Reform-Effekt: -[x] Loyalität in allen Regionen
 
 #b_reform_loyal_c1
 Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmalige Strafe von [x] Loyalität in allen deinen Regionen verursachen.
@@ -1299,46 +1326,58 @@ Achtung! Wegen seines Inhalts wird Deine anstehende Reform eine sofortige einmal
 SCHATZKAMMER
 
 #ui_eco_balance
-Budgetsaldo
+Haushaltssaldo 
 
 #ui_eco_dscr
 Die Schatzkammer ist die Gesamtmenge der Münzen, die Deine Regierung besitzt. Die Wirtschaftspolitik definiert, wie die Wirtschaft deiner Gesellschaft derzeit organisiert ist.
+
+#ui_eco_notrsr_dscr
+Diese Gesellschaft arbeitet derzeit ohne jegliche Form von Währung und ihre Menschen teilen einfach alles in der Gemeinschaft: Die Regierung hat weder eine Staatskasse noch Einkommen oder Explans.
 
 #ui_eco_lead
 Persönliches Vermögen des Anführers
 
 #ui_eco_lead_c1
-Der Führer ordnet derzeit [x]% seines persönlichen Gesamtvermögens von [y] den Staatsfinanzen zu.  
+Der Anführer verteilt derzeit [x]% seines persönlichen Gesamtvermögens von [y] den Staatsfinanzen zu.  
 
 #ui_eco_tax
-Steuern Einkommen und Ertrag
+Steuereinnahmen
 
 #ui_eco_tax_c1
 Summe aller Steuereinnahmen aus allen deinen Regionen.
 
+#ui_eco_contrib
+Freiwillige Kontribution
+
 #ui_eco_contrib_c1
 In einer Gesellschaft ohne organisierte Steuern stammen die Einkommen nur aus dem freiwilligen Beitrag der Menschen für die Gemeinschaft (20% ihres Einkommens).
 
+#ui_eco_wast
+Verschwendung
+
 #ui_eco_wast_c1
-Steuereinnahmen, die durch Verschwendung in deinen Regionen verloren gehen. Abfall ist das Ergebnis einer niedrigen Regionsverwaltung.
+Steuereinnahmen, die durch Verschwendung in deinen Regionen verloren gehen. Ergebnis einer niedrigen Regionsverwaltung.
 
 #ui_eco_bdgs
-Gebäudeunterhalt
+Gebäude Instandhaltung
 
 #ui_eco_bdgs_c1
-Totale Instandhaltung aller Gebäude in allen deinen Regionen.
+Gesamt Instandhaltung aller Gebäude in allen deinen Regionen.
 
 #ui_eco_infr
-Aufrechterhaltung der Infrastrukturen
+Instandhaltung der Infrastrukturen
 
 #ui_eco_infr_c1
-Gesamtkosten für die Wartung aller Infrastrukturen aller deiner Regione wie Mauern oder Straßen.
+Gesamtkosten für die Wartung aller Infrastrukturen in deinen Regionen wie z.b Mauern oder Straßen.
 
 #ui_eco_units
-Wartung der Einheiten
+Einheiten Unterhalt
 
 #ui_eco_units_c1
 Totale Aufrechterhaltung aller Einheiten in allen deinen Formationen.
+
+#ui_eco_salar
+Gehälter
 
 #ui_eco_salar_c1
 Gesamtausgaben für Staatslöhne.
@@ -1350,16 +1389,25 @@ Verträge
 Münzen, die von anderen Staaten über Deine derzeit aktiven Verträge gesendet oder empfangen werden.
 
 #ui_eco_civc
-Bürgererhaltung
+Zivilgesellschaftliche Erhaltung
 
 #ui_eco_proj_c1
-Gesamtkosten aller laufenden Projekte.
+Gesamtkosten aller laufenden Zivilgesellschaftlichen Projekte.
+
+#ui_eco_proj
+Laufende Projekte
+
+#ui_eco_proj_c1
+Gesamtkosten aller im moment laufenden Projekte.
+
+#ui_eco_nat
+Nation
 
 #ui_eco_nat_c1
-Steuern von Untergebenen: [x]
+Steuern von untergebenen: [x]
 
 #ui_eco_nat_c2
-Steuern für deinen hierarchischen Vorgesetzten: [x]
+Steuern für deinen hierarchisch ranghöheren: [x]
 
 #ui_eco_tradbal
 Handelsbilanz
@@ -1368,19 +1416,19 @@ Handelsbilanz
 Die Handelsbilanz über alle Deine Regione hinweg von allen deinen aktuellen Handelsrouten.
 
 #ui_eco_tradbal_c2
-Staatliche Ressourcen: + [x] Verkäufe - [y] Käufe
+Staatliche Ressourcen: + [x] Verkäufe - [y] Einkäufe
 
 #ui_eco_tradbal_c3
-Importe: + [x] Verkäufe - [y] Käufe
+Importe: + [x] Verkäufe - [y] Einkäufe
 
 #ui_eco_tradbal_c4
-Exporte: + [x] Verkäufe - [y] Käufe
+Exporte: + [x] Verkäufe - [y] Einkäufe
 
 #ui_eco_tradbal_c5
-Fracht: + [x] Verkäufe - [y] Käufe
+Fracht: + [x] Verkäufe - [y] Einkäufe
 
 #ui_mres_storvar
-SPEICHERVARIATION
+LAGERVARIATION
 
 #ui_mres_prod
 PRODUKTION
@@ -1389,7 +1437,7 @@ PRODUKTION
 IMPORT
 
 #ui_mres_dist
-VERTEILUNG
+DISTRIBUTION
 
 #ui_mres_ind
 INDUSTRIEN
@@ -1400,17 +1448,38 @@ EXPORT
 #ui_price_base
 Mindestpreis: [x]
 
+#ui_price_base_c1
+Das ist der mindeste verlangte preis für diese resource, andere faktoren sind irrelevant.
+
 #ui_price_base1
 Produktionskosten ( [x]%)
 
+#ui_price_base1_c1
+Kosten für die lokale Produktion dieser Resourcen basierend auf der benötigten materialien.
+
 #ui_price_base2
-Einfuhrkosten ( [x]%)
+Einfuhrkosten ([x]%)
+
+#ui_price_base2_c1
+Kosten die durch Import dieser resourcen auf derzeitigen Handelsrouten entstehen.
 
 #ui_price_base3
 Gewinnmarge
 
+#ui_price_base3_c1
+Sicherstellung von Mindestgewinnen für die Produzenten von +20% der Produktionskosten.
+
+#ui_price_base3_c2
+Erhöhung auf +30% der Produktionskosten, wenn die Ressourcen über Händler verteilt werden, da deren Kürzung auch von den Produzenten berücksichtigt werden muss.
+
 #ui_price_work
 Basispreis
+
+#ui_price_work_c1
+Preis basierend auf dem Arbeitsaufwand für die Herstellung dieser Ressource.
+
+#ui_price_work_c2
+Arbeitsaufwand pro Ressourceneinheit: [x]
 
 #ui_price_mkt
 Marktstudie: [x]
@@ -1419,16 +1488,19 @@ Marktstudie: [x]
 Untersuchung der aktuellen Märkte für diese Ressource, um ihren idealen Preis zu bestimmen und maximale Gewinne für ihre Produzenten und Händler zu erzielen.
 
 #ui_price_mkt1
-Öffentlicher Markt ( [x]%)
+Öffentlicher Markt ([x]%)
+
+#ui_price_mkt1_c1
+Die öffentliche Studie basiert auf der Kaufkraft aller Bevölkerungsschichten, die diese Ressource nutzen, und der Menge, die auf dem öffentlichen Markt verteilt wird. Dies ist der ideale Preis, zu dem die Gewinne für die Händler, die diese Ressource verkaufen, optimal wären.
 
 #ui_price_mkt2
-Branchenmarkt ( [x]%)
+Industrien Markt ([x]%)
 
 #ui_price_mkt2_c1
 Die industrielle Studie basiert darauf, wie viel Umsatz von Branchen generiert wird, die diese Ressource als Material nutzen. Ein Teil dieser Einnahmen wird begehrt sein und das bestimmt den idealen Preis dieser Ressource für den industriellen Verbrauch.
 
 #ui_price_mkt3
-Exporte ( [x]%)
+Exporte ([x]%)
 
 #ui_price_mkt3_c1
 Der Durchschnittspreis der Exporte und ihr Anteil am lokalen Markt beeinflusst die Preisstudie proportional.
@@ -5105,9 +5177,6 @@ aktuelle Legitimität der Regierung
 #ui_gov_power
 aktuelle Zustandsenergie
 
-#ui_gov_gdp
-BIP
-
 #ui_gov_gdp_c1
 Das aktuelle Bruttoinlandsprodukt aller Regione.
 
@@ -5122,9 +5191,6 @@ VON DER REFORM ABBRECHEN
 
 #ui_civ_cncl_c
 Klicke hier, um diese ausstehende Änderung aus deiner Reform zu entfernen.
-
-#ui_eco_notrsr_dscr
-Diese Gesellschaft arbeitet derzeit ohne jegliche Form von Währung und ihre Menschen teilen einfach alles in der Gemeinschaft: Die Regierung hat weder eine Staatskasse noch Einkommen oder Explans.
 
 #ui_eco_contrib
 Freiwillige Beiträge
@@ -5164,9 +5230,6 @@ Preis basierend auf dem Arbeitsaufwand für die Herstellung dieser Ressource.
 
 #ui_price_work_c2
 Arbeitsaufwand pro Ressourceneinheit: [x]
-
-#ui_price_mkt1_c1
-Die öffentliche Studie basiert auf der Kaufkraft aller Bevölkerungsschichten, die diese Ressource nutzen, und der Menge, die auf dem öffentlichen Markt verteilt wird. Dies ist der ideale Preis, zu dem die Gewinne für die Händler, die diese Ressource verkaufen, optimal wären.
 
 #ui_price_sd_c31
 (Lieferung unterstützt durch staatliche Beschaffung!)
