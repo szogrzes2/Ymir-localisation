@@ -1050,7 +1050,7 @@ Der Endbestand aller Exportierten und Importierten Güter mit ein- und ausgaben.
 Importierte Güter lokaler Vertrieb
 
 #regeco_ii_c1
-Gewinn generiert aus Import-Gütern die in dieser region verkauft werden (Regionale preise).
+Gewinn generiert aus Import-Gütern die in dieser Region verkauft werden (Regionale preise).
 
 #regeco_ic
 Einkaufskosten der Importierten Güter
@@ -4938,7 +4938,7 @@ Hinzufügen/Entfernen von Auswahl mit Strg+Linksklick.
 Auswahl aufheben: Rechtsklick.
 
 #regmenu_status_c1
-Aktueller Regionsstatus: '[x]' (zum Ändern anklicken)
+Aktueller Status dieser Region: '[x]' (zum Ändern anklicken)
 
 #regmenu_powcost
 Dieser territoriale Status kostet dich derzeit [x] der Staatsgewalt, um ihn aufrechtzuerhalten.
@@ -4971,7 +4971,7 @@ Sie ist das Ergebnis aller staatlichen Einnahmen und Ausgaben wie Steuern, Hande
 Verwaltungsbilanz dieser Regions
 
 #regmenu_admin_dscr
-Ein schlecht verwaltetes Region erzeugt mehr Verschwendung und Korruption und reduziert alle Einkommensquellen.
+Ein schlecht verwaltete Region verschwendet mehr resourcen und generiert Korruption, Dies reduziert alle Einkommensquellen.
 
 #regmenu_wealth
 Gesamtvermögen dieser Regiones
