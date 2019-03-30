@@ -4971,7 +4971,7 @@ Sie ist das Ergebnis aller staatlichen Einnahmen und Ausgaben wie Steuern, Hande
 Verwaltungsbilanz dieser Regions
 
 #regmenu_admin_dscr
-Ein schlecht verwaltete Region verschwendet mehr resourcen und generiert Korruption, Dies reduziert alle Einkommensquellen.
+Eine schlecht verwaltete Region verschwendet mehr resourcen und generiert Korruption, Dies reduziert alle Einkommensquellen.
 
 #regmenu_wealth
 Gesamtvermögen dieser Regiones
@@ -5053,9 +5053,6 @@ Befestigungen
 
 #ui_connct_stable
 Deine Verbindung mit dem Server ist stabil.
-
-#menuop_k_up
-Kamera hochfahren
 
 #menuop_togtut
 Tutorials umschalten
