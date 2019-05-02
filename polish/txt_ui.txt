@@ -20,10 +20,10 @@ USTAWIENIA
 WYJDZ
 
 #b_menu_resume
-WZN�W
+WZNÓW
 
 #b_menu_tomain
-MENU GL�WNE
+MENU GLÓWNE
 
 #b_menu_discord_1
 Oficjalny kanal Discord
@@ -77,7 +77,7 @@ minimalizuj
 DISCLAIMER
 
 #dsclmr_1
-- Ta gra jest projektem jednoosobowym: jej rozw�j jest powolny.
+- Ta gra jest projektem jednoosobowym: jej rozwój jest powolny.
 
 #dsclmr_2
 - Mozliwe, ze ta gra pozostanie na zawsze eksperymentalna, w fazie rozwoju i nigdy nie osiagnie jakosci i optymalizacji ukonczonego produktu.
@@ -167,7 +167,7 @@ Okreslanie okna roboczego pozostanie w stosunku 1:1 z rozdzielczoscia obrazu.
 Okreslenie okna roboczego
 
 #b_menuop_vsize_c1
-Definition of the game graphics in relation to your screen resolution: 100% means 1:1 ratio between screen and rendered graphics.
+Definicja grafiki gry w stosunku do rozdzielczości ekranu: 100% oznacza stosunek 1: 1 między ekranem a renderowaną grafiką.
 
 #b_menuop_vsize_c2
 Obnizenie tego wskaznika znaczaco podnosi wydajnosc.
@@ -176,13 +176,13 @@ Obnizenie tego wskaznika znaczaco podnosi wydajnosc.
 Automatyczny rozmiar interfejsu
 
 #b_menuop_autoui_c1
-UI size will automatically adapt to your display resolution.
+Rozmiar interfejsu użytkownika automatycznie dostosuje się do rozdzielczości ekranu.
 
 #b_menuop_uisize
 Rozmiar interfejsu
 
 #b_menuop_uisize_c1
-Changes the size of the UI layer. 
+Zmienia rozmiar interfejsu użytkownika. 
 
 #b_menuop_uisize_c2
 Usefull to prevent UI from being uncomfortable to read, depending on the size and display definition of your device.
@@ -203,85 +203,85 @@ Jezyk
 Wybierz jezyk
 
 #menuop_k_up
-Camera up
+Kamera w górę
 
 #menuop_k_le
-Camera left
+Kamera w lewo
 
 #menuop_k_ri
-Camera right
+Kamera w prawo
 
 #menuop_k_dw
-Camera down
+Kamera w dół
 
 #menuop_keyset
-click and press a keyboard key to bind it to this action
+kliknij i naciśnij klawisz klawiatury, aby powiązać go z tą akcją
 
 #menuop_togtut
-Toggle tutorials
+Przełącz tutoriale
 
 #menuop_togtut_c1
-Enables the main tutorial and all the help popups when doing things for the first time.
+Włącza samouczek główny i wszystkie wyskakujące okienka pomocy podczas robienia rzeczy po raz pierwszy.
 
 #menuop_resetut
-Reset all
+Zresetuj wszystko
 
 #menuop_resetut_c1
-Reset all tutorials to zero.
+Zresetuj wszystkie tutoriale do zera.
 
 #menuop_resetutd
-All tutorials reseted.
+Wszystkie zresetowane samouczki.
 
 #b_menuop_apply
-Apply
+Dodaj
 
 #b_menuop_display
-DISPLAY
+GRAFIKA
 
 #b_menuop_sound
-SOUND
+DZWIĘK
 
 #b_menuop_game
-GAME
+GRA
 
 #ui_menuop_options
-SETTINGS
+USTAWIENIA
 
 #joingame_yourgames
-Your games
+Twoja gra
 
 #joingame_persist
-Persistent games
+Trwałe gry
 
 #joingame_persist_dscr_1
-Persistant games are the main game mode to experience Ymir: slow paced games that can last for months on servers that run 24/7.
+Trwałe gry to główny tryb gry pozwalający doświadczyć Ymira: wolno działające gry, które mogą działać przez wiele miesięcy na serwerach działających przez całą dobę..
 
 #joingame_persist_dscr_2
-To garantee a reliable and fair experience for all players, servers listed here all share the same strict standardized official "persistent mode" settings. Server customization is not allowed: there are no mods, no server-specific rules and the server hosts are powerless (no admin tools to ban or moderate players). Only gameplay is law.
+Aby zagwarantować niezawodne i uczciwe doświadczenie dla wszystkich graczy, serwery wymienione tutaj mają takie same, surowe, standardowe, oficjalne ustawienia trybu trwałego. Dostosowywanie serwera jest niedozwolone: nie ma modyfikacji, nie ma specyficznych dla serwera reguł, a hosty serwera są bezsilne (brak narzędzi administracyjnych do blokowania lub moderowania graczy). Jedyną rozgrywką jest prawo.
 
 #joingame_realtime
-Real-time games
+Gry w czasie rzeczywistym
 
 #joingame_realtime_dscr_1
-Realtime games are an official game mode of Ymir for faster paced games that are meant to be played in multiple sessions with friends or smaller groups of players.
+Gry w czasie rzeczywistym to oficjalny tryb gry Ymir dla szybszych gier, które mają być rozgrywane w wielu sesjach z przyjaciółmi lub mniejszymi grupami graczy.
 
 #joingame_custom
-Custom games
+Niestandardowe gry
 
 #joingame_custom_dscr_1
-Custom games are community hosted games with no enforced standardization, where server customization is allowed. The intended game balance might therefore be affected and the reliability of your game experience cannot be garanteed in these servers.
+Gry niestandardowe to gry hostowane przez społeczność bez wymuszonej standaryzacji, w których dostosowanie serwera jest dozwolone. W związku z tym zamierzone saldo gry może zostać naruszone, a niezawodność gry nie może być zagwarantowana na tych serwerach.
 
 #joingame_custom_dscr_2
-WARNING: Please note that unlike official game mode servers, there might be server-specific rules and server moderation tools are unlocked to the server hosts. That includes the power to ban players from their servers at their sole discretion.
+OSTRZEŻENIE: Należy pamiętać, że w przeciwieństwie do oficjalnych serwerów trybu gry, mogą istnieć specyficzne dla serwera reguły, a narzędzia moderacji serwera są odblokowane dla hostów serwera. Obejmuje to prawo do blokowania graczy z ich serwerów według własnego uznania.
 
 #joingame_direct
 Direct IP
 
 #joingame_connect
-JOIN GAME
+DOŁĄCZ DO GRY
 
 #servlst_name
-Server name
+Nazwa serwera
 
 #servlst_name_c1
 The custom name of the server's game
@@ -3965,7 +3965,7 @@ The trade route operator is the city dealing with the transportation of the good
 It can be the city opening the trade route or any other city within your trade network that has made some cargo service available. 
 
 #ui_troute_opdscr3
-The cost of cargo is exponential to the trade route�s distance. Choosing a third party city located in the middle of your trade route as the operator will greatly reduce it's cargo cost. 
+The cost of cargo is exponential to the trade routes distance. Choosing a third party city located in the middle of your trade route as the operator will greatly reduce it's cargo cost. 
 
 #ui_troute_vol
 Cargo volume
@@ -4079,7 +4079,7 @@ Militia
 A militia is composed by the population of the territory itself, only mobilizing to defend the territory when it's attacked.
 
 #menu_nfrm_t2_dscr2
-Militias don�t monopolize porcos permanently, allowing them to keep a job and it's upkeep is lower as it's soldiers do not require a salary.
+Militias dont monopolize porcos permanently, allowing them to keep a job and it's upkeep is lower as it's soldiers do not require a salary.
 
 #menu_nfrm_t2_dscr3
 However , the militia cannot move to other territory s and decreases the state authority.
